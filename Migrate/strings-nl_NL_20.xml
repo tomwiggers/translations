@@ -523,169 +523,169 @@
     <string name="troubleshooting_tips">Tips voor fouten</string>
 
     <!--restore_0.xml-->
-    <string name="step_0">Step 0 -\nTake a backup!</string>
-    <string name="step_0_desc">(obviously..)</string>
+    <string name="step_0">Stap 0 -\nDoe een back-up!</string>
+    <string name="step_0_desc">(Vanzelfsprekend..)</string>
 
     <!--restore_1.xml-->
-    <string name="step_1">Step 1 -\nFlash a new ROM</string>
+    <string name="step_1">Stap 1 -\nFlash een nieuwe nieuwe ROM</string>
     <string name="step_1_desc">
-        1. Boot into TWRP\n
-        2. Wipe data <b>(Strongly recommended!)</b>\n
-        3. Flash your new ROM + GApps (optional)\n
-        4. <b>Important: Flash root!</b> Magisk is recommended.\n
+        1. Boot naar TWRP\n
+        2. Wis data <b>(Sterk aangeraden!)</b>\n
+        3. Flash je nieuwe ROM + GApps (optioneel)\n
+        4. <b>Belangrijk: Flash root!</b> Magisk is aangeraden.\n
     </string>
 
     <!--restore_2.xml-->
-    <string name="step_2">Step 2 -\nFlash backup zip!</string>
+    <string name="step_2">Stap 2 -\nFlash back-up zip!</string>
     <string name="step_2_desc">
-        By default, your created backup zip file should be under:\n
-        <b>Internal storage ->\nMigrate ->\n[backup_name.zip or backup_name -> parts.zip]</b>\n\n
-        In TWRP main menu, click INSTALL -> navigate to the backup file zip and install it.\n\n
-        <b>Important:</b> Please do not wipe data after flashing the backup zips.
+        Standaard staat je gemaakte back-up zip onder:\n
+        <b>Interne opslag ->\nMigrate ->\n[back-up_naam.zip of back-up_naam -> delen.zip]</b>\n\n
+        In TWRP hoofdmenu, tik \"INSTALL\" -> navigeer naar de back-up zip file en flash het.\n\n
+        <b>Belangrijk:</b> Wis data A.U.B. niet na het flashen van back-up zip.
     </string>
-    <string name="step_2_troubleshoot">In some cases, after flashing Magisk, Migrate may falsely detect system_root for non system_root devices.
-        You may get a \"No ROM detected\" error.
-        Please reboot back to TWRP recovery and try again.</string>
+    <string name="step_2_troubleshoot">In sommige situaties, na het flashen van Magisk, kan Migrate ten onrechte system_root detecteren op non-system_root apparaten.
+        Je kan een \"No ROM detected\" fout krijgen.
+        In dat geval, ga A.U.B. terug naar TWRP en probeer het opnieuw.</string>
 
     <!--restore_3.xml-->
-    <string name="step_3">Step 3 -\nSetup your new ROM</string>
+    <string name="step_3">Stap 3 -\nConfigureer je nieuwe ROM</string>
     <string name="step_3_desc">
-        1. Reboot to system.\n
-        2. Complete any GApps/ROM setup.
+        1. Herstart naar \"System\".\n
+        2. Rond GApps/ROM configuratie af.
     </string>
 
     <!--restore_4.xml-->
-    <string name="step_4">Step 4 -\nRestore apps and data.</string>
-    <string name="step_4_desc_1">You should be able to see a notification as shown. Open the notification.</string>
-    <string name="step_4_desc_2">If you don\'t see the notification, open app drawer and open \"Migrate helper\".\n
-        On opening, you should get a screen like this:</string>
+    <string name="step_4">Stap 4 -\nHerstel app\'s en data.</string>
+    <string name="step_4_desc_1">Je zou een notificatie moeten krijgen (zoals getoond). Open de notificatie.</string>
+    <string name="step_4_desc_2">Indien je de notificatie niet ziet, open dan de \"Migrate helper\" app.\n
+        Bij openen zou je een notificatie moeten zien als volgt:</string>
     <string name="step_4_desc_3">
-        <b>RESTORE APPS AND DATA</b>: Give root permission and select the apps and extras to be restored.\n\n
-        <b>UNINSTALL APP OR FINALIZE RESTORE</b>: Select this to do post restore operations, uninstall the helper and reboot the device.\n\n
+        <b>HERSTEL ALLE APP\'S EN DATA</b>: Geef root toegang en selecteer de app\'s en extra\'s voor herstel.\n\n
+        <b>APP VERWIJDEREN OF HERSTEL AFMAKEN</b>: Selecteer dit om post-horstel acties te doen, de helper app te verwijderen en het apparaat te herstarten.\n\n
     </string>
-    <string name="step_4_troubleshoot">In case you don\'t have the app, use the inbuilt Android file manager (or download a file manager temporarily from Google Play Store), install the \"helper.apk\" from Internal storage/Migrate directory</string>
+    <string name="step_4_troubleshoot">In het geval dat je de app niet ziet, gebruik de ingebouwde Android bestandsbeheerder (of download er tijdelijk één uit de Google Play Store), en installeer de \"helper.apk\" uit Interne opslag/Migrate map.</string>
 
     <!--restore_5.xml-->
-    <string name="step_5">Step 5 - \nComplete post restore jobs</string>
-    <string name="step_5_desc_1">Some jobs are usually left after restore. This includes changing the default SMS app (if SMS\'s are restored) from Migrate helper to another app, and also changing the DPI</string>
-    <string name="step_5_desc_2">In Android 10+, after changing the SMS app, the system will force close the Migrate helper app. Please wait for a few seconds before it is automatically restarted.</string>
-    <string name="step_5_desc_3">Finally you will want to uninstall the helper app from the system. You may also want to disable the app to reuse later.</string>
-    <string name="step_5_troubleshoot">On Android 10+ the Migrate helper, in some cases, may not be able to restart itself. Please open the app manually.
-        You may also be prompted that a different app is being installed in background.
-        Don\'t worry, its a plugin \"watcher\" app which detects that Migrate helper has been force closed, and restarts it.
-        It will be automatically uninstalled by the helper itself.</string>
+    <string name="step_5">Stap 5 - \nRond post-herstel taken af</string>
+    <string name="step_5_desc_1">Een aantal taken moeten meestal nog gebeuren na herstel. Dit omvat onder andere het veranderen van de standaard SMS-app (indien SMS\'en zijn hersteld) van Migrate helper naar een andere app en de DPI-instelling.</string>
+    <string name="step_5_desc_2">Op Android 10+, Na het wijzigen van de standaard SMS-app, zal het systeem de Migrate helper app geforceerd sluiten. Wacht dan A.U.B. een paar seconden, deze wordt vanzelf opnieuw gestart.</string>
+    <string name="step_5_desc_3">Als laatste wil je de helper app waarschijnlijk verwijderen of uitschakelen (voor later gebruik).</string>
+    <string name="step_5_troubleshoot">In sommige situaties, Android 10+, kan de Migrate helper app zichzelf niet opnieuw openen, doe dit in dat geval even zelf.
+        Er kan je ook verteld worden dat er een andere app op de achtergrond wordt geïnstalleerd.
+        Maak je hier niet druk om, het is een plugin \"watcher\"-app die detecteerd dat de Migrate helper app geforceerd is gesloten en herstart het dan.
+        Deze zal automatisch door de helper app worden verwijderd.</string>
 
     <!--restore_6.xml-->
-    <string name="step_6">Step 6 -\nDone! Enjoy!</string>
-    <string name="step_6_desc">Completed! Enjoy your new ROM!</string>
+    <string name="step_6">Stap 6 -\nKlaar! Geniet er van!</string>
+    <string name="step_6_desc">Alles afgerond, veel plezier met je nieuwe ROM!</string>
 
     <!--drawer_menu.xml-->
-    <string name="aboutThisApp">About this app</string>
-    <string name="about">About</string>
+    <string name="aboutThisApp">Over deze app</string>
+    <string name="about">Over</string>
     <string name="help">Help</string>
-    <string name="preferences">Preferences</string>
+    <string name="preferences">OPties</string>
     <string name="app_intro">App intro</string>
     <string name="changelog">Changelog</string>
-    <string name="lastLog">Last logs</string>
-    <string name="contributors">Contributors</string>
-    <string name="translate_the_app">Translate app</string>
-    <string name="rateTheApp">Rate the app</string>
+    <string name="lastLog">Laatste logs</string>
+    <string name="contributors">Bijdragers</string>
+    <string name="translate_the_app">Vertaal de app</string>
+    <string name="rateTheApp">Beoordeel app</string>
     <string name="xda_thread">XDA thread</string>
-    <string name="other_options">Other options</string>
-    <string name="other_apps">Other apps</string>
+    <string name="other_options">Andere options</string>
+    <string name="other_apps">Andere app\'s</string>
     <string name="contact">Contact via Telegram</string>
-    <string name="contact_over_telegram">Telegram group</string>
-    <string name="older_builds">Older builds on AFH</string>
+    <string name="contact_over_telegram">Telegram groep</string>
+    <string name="older_builds">Oudere versies op AFH</string>
     
     <!--help_page.xml-->
-    <string name="q1">What is the Perm label in app backup?</string>
-    <string name="a1"><i>Perm</i> means permissions of an app. Migrate can backup the granular permissions granted to an app for Android Marshmallow (6.0) and above.\n
-    Selecting the option will allow you to restore the app permissions when the app is restored.
+    <string name="q1">Wat is het Perm etiket in app back-up?</string>
+    <string name="a1"><i>Perm</i> betekent permissions van een app. Migrate kan de gedetaileerde permissies die een app gegunt zijn back-uppen (op Android Marshmallow (6.0) en hoger).\n
+    Het selecteren van de optie zal je optie geven deze permissies te herstellen wanneer de app is hersteld.
     </string>
-    <string name="q2">How is this app different from Titanium Backup?</string>
-    <string name="a2">This app is a ROM migration tool. This app can:\n
-        \u2022 Combines all app and data to TWRP flashable zip\n
-        \u2022 Backup different extras like contacts, sms, call logs etc\n
-        \u2022 Higher portability because you have to carry only few zip files\n
-        \u2022 Backups, if needed, can be flashed on another device.\n
+    <string name="q2">Hoe is deze app anders dan Titanium Backup?</string>
+    <string name="a2">Deze app is een ROM migratie tool. Deze app kan:\n
+        \u2022 Alle app\'s en data in één flashbare zip-bestanden combineren\n
+        \u2022 Verscheidene extra\'s zoals contacten, SMS\'en, oproepgeschiedenis etc. ook back-uppen\n
+        \u2022 Hogere draagbaarheid omdat je alleen maar een paar zip\'s hoeft te hebben\n
+        \u2022 Back-up\'s kunnen, indien nodig, op een ander apparaat hersteld worden.\n
     </string>
-    <string name="q3">But why not use nandroid backup instead?</string>
-    <string name="a3">Nandroid backup is the safest backup option available. However you cannot restore apps from one nandroid backup to a new ROM.\n
-    This app is necessarily a ROM migration tool. Nandroid backup cannot do that job.
+    <string name="q3">Waarom niet gewoon een nandroid back-up?</string>
+    <string name="a3">Een Nandroid back-up is de veiligste beschikbare back-up. Maar, je kan een Nandroid back-up niet naar een andere ROM herstellen.\n
+    Deze app is in beginsel een ROM-migratie tool. Dat is een Nandroid back-up niet.
     </string>
-    <string name="q4">Why can\'t all the apps and data be restored from the recovery itself?</string>
-    <string name="a4">Recovery is a different environment from Android OS. Imaging installing a Windows game from a Linux distro.\n\n
-    So a helper app is injected into the system partition, which fires up on system boot. It takes root permission and automatically restores app and data.
+    <string name="q4">Waarom kunnen alle app\'s en alle data niet direct vanuit recovery worden hersteld?</string>
+    <string name="a4">Recovery is een andere omgeving dan een Android OS. Vergelijk het met een Windows spel installeren vanaf een Linux distro.\n\n
+    Dus wordt er een helper app geïnjecteerd in het systeem die opent na het opstarten. Het gebruikt root permissies om automatisch alle app\'s en data te herstellen.
     </string>
-    <string name="q5">Do I need to download the Migrate app from Play Store to restore the backup zip?</string>
+    <string name="q5">Moet ik de Migrate app uit de Play Store downloaden om een zip te herstellen?</string>
     <string name="a5">
-        Absolutely not!\n\n
-        All you need is TWRP recovery and that your new ROM be rooted. While flashing backup zip, a helper app is injected into system, which takes up the app restore process.
+        Absoluut niet!\n\n
+        Het enige benodigde is TWRP en een gerootte ROM. Tijdens het flashen van een herstel zip, wordt er een helper app mee geïnstalleerd die het herstel proces regelt.
     </string>
-    <string name="q6">Is TWRP necessary? Can\'t I restore backup without it?</string>
+    <string name="q6">Is TWRP nodig? Kan ik niet een back-up herstellen zonder TWRP?</string>
     <string name="a6">
-        TWRP recovery is needed to flash the backup zip. Without that, you cannot restore a backup. Other recoveries may work, but is not tested.\n\n
-        Currently Migrate does not support restoring zips from the app itself. But that is something which can be added in future.
+        TWRP recovery is nodig om een backup zip te flashen. Zonder dit kan je geen back-up herstellen. Andere recoveries zouden kunnen werken, maar zijn niet getest.\n\n
+        Op dit moment kan Migrate niet vanuit de app zelf herstellen, maar dat is iets wat in nog kan komen in de toekomst.
     </string>
-    <string name="q7">Is it necessary to use Magisk?</string>
+    <string name="q7">Is het nodig om Magisk te gebruiken?</string>
     <string name="a7">
-        This app works best with Magisk. SuperSU has not been tested. Lineage OS su addon sometimes work but sometimes give very weird errors. So please use Magisk.
+        Deze app werkt het beste met Magisk. SuperSU is niet getest. Lineage OS su addon werkt af en toe, maar kan rare fouten veroorzaken. Dus gebruik A.U.B. Magisk.
     </string>
-    <string name="more_questions">More questions? Feel free to contact on Telegram</string>
+    <string name="more_questions">Meer vragen? Neem gerust contact op via Telegram</string>
 
     <!--last_log_report.xml-->
-    <string name="seeProgressLog">See Progress log</string>
-    <string name="seeErrorLog">See Error log</string>
-    <string name="report_logs">Report logs</string>
-    <string name="progressLog">Progress log</string>
-    <string name="errorLog">Error log</string>
+    <string name="seeProgressLog">Voortgang-log inzien</string>
+    <string name="seeErrorLog">Fout-log inzien</string>
+    <string name="report_logs">Rapporteer logs</string>
+    <string name="progressLog">Voortgangs-log</string>
+    <string name="errorLog">Fout-log</string>
 
     <!--SimpleLogDisplay.java-->
-    <string name="no_header">No header</string>
-    <string name="no_filepath">No filepath</string>
-    <string name="log_reading_error">Log reading error</string>
+    <string name="no_header">Geen header</string>
+    <string name="no_filepath">Geen bestandspad</string>
+    <string name="log_reading_error">Log leesfout</string>
 
     <!--other_apps.xml-->
-    <string name="instamean">Systemwide online dictionary</string>
-    <string name="pickRingStop">Pick up your phone to stop ringing</string>
-    <string name="opcode8085">Convert 8085 programs to hex code</string>
-    <string name="mdh">Access Moto Display with a hand wave</string>
-    <string name="bg_video">Play videos in background</string>
-    <string name="more_coming_soon">More coming soon…</string>
+    <string name="instamean">Systeembrede online woordenboek</string>
+    <string name="pickRingStop">Pak je telefoon op om je ringtone te stoppen</string>
+    <string name="opcode8085">Converteer 8085 programma\'s naar hex code</string>
+    <string name="mdh">Gebruik Moto Display met een handgebaar</string>
+    <string name="bg_video">Spel video\'s op de achtergrond</string>
+    <string name="more_coming_soon">Binnenkort meer…</string>
 
     <!--miscellaneous-->
     <string name="contact_via_telegram">Contact via Telegram</string>
-    <string name="contact_via_telegram_desc">For feedback and support, please contact on our Telegram group. You will get better and faster support from group members.\n\nYou may also choose to personally contact the developer on Telegram.</string>
-    <string name="contact_dev">Contact developer</string>
-    <string name="post_in_group">Post in group</string>
-    <string name="select_mail">Select mail app like Gmail</string>
-    <string name="select_telegram">Open Telegram and select the Migrate group</string>
-    <!--<string name="sem_apology">Semester apology!</string>
-    <string name="sem_apology_desc">Due to upcoming semesters, I will not be able to focus on the app development for a month or so. I am sorry.\n\n
-    Meanwhile, please continue using the app and share bug reports. Your love and support means a lot to me. Thanks!\n\n
+    <string name="contact_via_telegram_desc">Voor feedback en ndersteuning, neem A.U.B. contact op met onze Telegram groep. Je zal betere en snelle ondersteuning krijgen van groepsleden.\n\nJe kan er ook voor kiezen persoonlijk contact op te nemen met de ontwikkelaar via Telegram.</string>
+    <string name="contact_dev">Neem contact op met de ontwikkelaar</string>
+    <string name="post_in_group">Bericht in groep</string>
+    <string name="select_mail">Select een mail-app zoals Gmail</string>
+    <string name="select_telegram">Open Telegram en selecteer de Migrate groep</string>
+    <!--<string name="sem_apology">Semester verontschuldiging!</string>
+    <string name="sem_apology_desc">Vanwege opkomende semesters kan ik mij voor ongeveer de komende maand niet focussen op ontwikkeling van deze app. Mijn excuses.\n\n
+    Voel je vij om in de tussentijd de app te gebruiken en foutrapporten op te sturen. Jouw steun betekent veel voor mij. Dankjewel!\n\n
     - SayantanRC</string>-->
 
-    <string name="copied_app">This app has been copied and is fake.</string>
-    <string name="copied_app_exp">Please get the original app from BaltiApps by clicking the Install button.</string>
-    <string name="install_original_migrate">Install original app</string>
+    <string name="copied_app">Deze app is gekopieerd en is nep.</string>
+    <string name="copied_app_exp">Haal A.U.B. de originele app op bij BaltiApps door op de Installeer knop te tikken.</string>
+    <string name="install_original_migrate">Installeer originele app</string>
 
     <!--preferences.xml-->
 
-    <string name="disable_battery_optimisation">Disable battery optimisation</string>
-    <string name="use_new_sizing_method">Use new method to calculate size</string>
-    <string name="use_new_sizing_method_desc">Enabling this uses StorageStats in Android 8+ and by reflection in lower versions.
-        Disabling this uses terminal shell commands to calculate size.</string>
-    <string name="clear_to_reset">Clear and press OK to reset to default value</string>
-    <string name="autoselect_extras_title">Auto-select extras</string>
-    <string name="autoselect_extras_desc">This will automatically select extras like contacts and sms if you had previously backed them up</string>
-    <string name="new_icon_method_title">New icon method</string>
-    <string name="new_icon_method_desc">This will use a separate .icon file to store icons of each app being backed up. If unchecked, app icons will be stored in the .json file.</string>
-    <string name="tar_gz_integrity_title">tar.gz integerity check</string>
-    <string name="tar_gz_integrity_desc">Check integrity of data backup of each app stored as a tar.gz file</string>
-    <string name="sms_verify_title">SMS verification</string>
-    <string name="sms_verify_desc">Check integrity of SMS database file stored in the backup</string>
-    <string name="calls_verify_title">Call logs verification</string>
-    <string name="calls_verify_desc">Check integrity of call logs database file stored in the backup</string>
+    <string name="disable_battery_optimisation">Schakel accu optimalisatie uit</string>
+    <string name="use_new_sizing_method">Gebruik nieuwe bereken methode</string>
+    <string name="use_new_sizing_method_desc">Het inschakelen hiervan gebruikt StorageStats in Android 8+ en door middel van reflectie in lagere versies.
+        Het uitschakelen hiervan resulteert in het gebruik van shell-commando\'s om grootte te bereken.</string>
+    <string name="clear_to_reset">Leeg en tik op OK om standaard waardes te herstellen</string>
+    <string name="autoselect_extras_title">Selecteert extra\'s automatisch</string>
+    <string name="autoselect_extras_desc">Dit zal extra\'s zoals contacten en SMS\'en automatisch herstellen als je deze geback-upt hebt.</string>
+    <string name="new_icon_method_title">Nieuwe icoon methode</string>
+    <string name="new_icon_method_desc">Dit gebruikt een los .icon bestand om iconen op te slaan van elke geback-upte app. Indien uitgevinkt zullen iconen in een .json bestand worden opgeslagen.</string>
+    <string name="tar_gz_integrity_title">tar.gz integriteit controle</string>
+    <string name="tar_gz_integrity_desc">Controleer integriteit van data back-up voor iedere app opgeslagen als tar.gz bestand</string>
+    <string name="sms_verify_title">SMS verificatie</string>
+    <string name="sms_verify_desc">Controleer integriteit van SMS database bestand opgeslagen in de  back-up</string>
+    <string name="calls_verify_title">Oproepgeschiedenis verificatie</string>
+    <string name="calls_verify_desc">Controleer integriteit van oproepgeschiedenis database bestand opgeslagen in back-up</string>
     <string name="perform_system_check_title">Perform system check</string>
     <string name="perform_system_check_desc">This will perform a basic apk copy and data copy (of this app itself) via Su shell before each backup. Thus checking if backup of other apps will be successful or not.</string>
     <string name="separate_extras_title">Separate extras backup</string>
