@@ -130,7 +130,7 @@
     </string>
 
     <!--activity_main.xml-->
-    <string name="backupButton">Backup</string>
+    <string name="backupButton">Back-up</string>
     <string name="restoreTwrp">Herstel met TWRP</string>
     <string name="restoreApp">In-app herstel</string>
     <string name="internal_storage">Interne opslag</string>
@@ -139,20 +139,20 @@
     <!--backup_layout.xml-->
     <string name="select_apps">Selecteer apps</string>
     <string name="backupLabel">Back-up</string>
-    <string name="fullBackupLabel">Full_backup</string> <!-- original translation -->
+    <string name="fullBackupLabel">Voll_back-up</string>
     <string name="permission">Perm</string> <!-- original translation -->
     <string name="data">Data</string> <!-- original translation -->
     <string name="app">App</string> <!-- original translation -->
     <string-array name="appTypeList">
-        <item>Gebruiker apps</item>
-        <item>Systeem (niet geüpdatete)</item>
-        <item>System (alleen geüpdatete)</item>
-        <item>Alle systeem</item>
-        <item>Gebruiker + Systeem (alleen geüpdatete)</item>
+        <item>Gebruiker app\'s</item>
+        <item>Systeem (niet bijgewerkte)</item>
+        <item>System (alleen bijgewerkte)</item>
+        <item>Alleen systeem</item>
+        <item>Gebruiker + Systeem (alleen bijgewerkte)</item>
         <item>Alle</item>
     </string-array>
     <string name="next">Volgende</string>
-    <string name="no_apps">Geen apps beschikbaar\nin deze categorie!</string>
+    <string name="no_apps">Geen app\'s beschikbaar\nin deze categorie!</string>
 
     <!--ask_for_backup_name.xml-->
     <string name="enter_backup_name">Voer back-up naam in</string>
@@ -161,8 +161,8 @@
     <string name="ignore_cache">Negeer app cache</string>
 
     <!--learn_about_sd_card.xml-->
-    <string name="p1">1. SD-kaart ondersteuning is experimenteel, en vereist een Magisk module.</string>
-    <string name="p2">2. De huidige implemente vereist dat je ROM FUSE ondersteunt, wat is vervangen door SDCARDFS in recente Android versies. In sommige ROM's bestaat FUSE nog om historische redenen.</string>
+    <string name="p1">1. SD-kaart ondersteuning is experimenteel en vereist een Magisk module.</string>
+    <string name="p2">2. De huidige implementatie vereist dat je ROM FUSE ondersteunt, wat is vervangen door SDCARDFS in recente Android versies. In sommige ROM's bestaat FUSE nog om historische redenen.</string>
     <string name="p3">3. Vanwege bovenstaande reden zal het al dan niet werken van de SD-kaart optie afhangen van het apparaat, de ROM en Android versie.</string>
     <string name="p4">4. Indien de huidige implementatie voor jou niet werkt, wacht dan totdat de ontwikkelaar van de module een nieuwe module schrijft, of ik een alternatief vind. Dank voor je geduld.</string>
     <string name="p5">Om SD-kaart ondersteuning te proberen, download en installeer dan de \"ExSDCard Access Enabler\" Magisk module en herstart het apparaat.\n
@@ -182,26 +182,26 @@
     <string name="extras">Extra's</string>
     <string name="contacts_label">Contacten</string>
     <string name="sms_label">SMS berichten</string>
-    <string name="call_log_label">Oproephistorie</string>
+    <string name="call_log_label">Oproepgeschiedenis</string>
     <string name="keyboard_label">Standaard toetsenbord</string>
     <string name="dpi_label">Scherm DPI</string>
     <string name="adb_label">ADB status</string>
-    <string name="no_default_adb_scale">Systeem heeft geen standaard ADB-verbinding waarde. In de meeste gevallen betekent dit dat de waarde 0 is. (ADB uitgeschakeld)
+    <string name="no_default_adb_scale">Systeem heeft geen standaard waarde voor ADB-verbinding. In de meeste gevallen betekent dit dat de waarde 0 is (ADB uitgeschakeld).
     Wil je deze waarde back-uppen als 0?</string>
     <string name="installer_label">App-installatieprogramma\'s</string>
     <string name="wifi_label">Bestand met Wi-Fi wachtwoorden</string>
     <string name="fontScale_label">Lettertype schaal</string>
-    <string name="no_default_font_scale">Systeem heeft geen standaard lettertype schaal waarde. In de meeste gevallen betekent dit dat de waarde 1.0 is.
+    <string name="no_default_font_scale">Systeem heeft geen standaard waarde voor lettertype schaal. In de meeste gevallen betekent dit dat de waarde 1.0 is.
     Wil je deze waarde back-uppen als 1.0?</string>
     <string name="yes_recommended">Ja (Aangeraden)</string>
     <string name="only_for_android_8">Alleen voor Android Oreo en hoger (8.0+)</string>
     <string name="filtering_duplicates">Filteren van\nduplicaten</string>
-    <string name="reading_sms">SMS'en lezen</string>
+    <string name="reading_sms">SMS\'en lezen</string>
     <string name="reading_calls">Oproepen lezen</string>
     <string name="reading">Lezen</string>
     <string name="reading_error">Leesfout</string>
     <string name="no_app_selected">Geen app geselecteerd!</string>
-    <string name="filtering_apps">App's filteren</string>
+    <string name="filtering_apps">App\'s filteren</string>
     <string name="tap_to_see_values">Tik om waardes te zien</string>
     <string name="adb_enabled">ADB foutoplossing ingeschakeld</string>
     <string name="adb_disabled">ADB foutoplossing uitgeschakeld</string>
@@ -223,7 +223,7 @@
     <string name="calculated_total">Berekende totaal:</string>
     <string name="last_app">Laatste app:</string>
     <string name="insufficient_storage">Onvoldoende opslag!</string>
-    <string name="long_press_to_force_stop">Houdt Annuleren ingedrukt om stoppen van app te forceren.</string>
+    <string name="long_press_to_force_stop">Houdt \"Annuleren\" ingedrukt om stoppen van app te forceren.</string>
     <string name="required_storage">Migrate heeft meer vrije ruimte nodig:</string>
     <string name="will_be_compressed">We hebben de berekende hoeveelheid nodig om de app-bestanden te kopiëren. Het uiteindelijke pakket zal vanwege compressie veel minder ruimte in beslag nemen.</string>
     <string name="contacts_access_needed">Moet contacten lezen voor contacten back-up</string>
@@ -237,7 +237,7 @@
     <string name="total_size_ok">Totale grootte OK!</string>
     <string name="total_size">Totale grootte:</string>
     <string name="error_reading_backup_data">Fout bij lezen back-up data</string>
-    <string name="error_calculating_size">Fout bij bereknen van grootte</string>
+    <string name="error_calculating_size">Fout bij berekenen grootte</string>
     <string name="could_not_create_destination">Kon back-up map niet maken.</string>
     <string name="make_sure_destination_exists">Wees er zeker van dat de bestemming gekoppeld en scrijfbaar is.</string>
     <string name="error_detecting_memory">Fout bij detecteren van apparaat-geheugen</string>
@@ -249,7 +249,7 @@
     <string name="allowed">toegestaan</string>
     <string name="error_reading_dpi">Fout bij lezen DPI</string>
     <string name="error_reading_adb">Fout bij lezen ADB</string>
-    <string name="error_reading_wifi">Fout bij lezen bestand voor Wi-Fi wachtwoorden</string>
+    <string name="error_reading_wifi">Fout bij lezen van bestand voor Wi-Fi wachtwoorden</string>
     <string name="error_reading_fontScale">Fout bij lezen lettertype schaal</string>
     <string name="stock_android_title">Bedoeld voor AOSP-gebasseerde ROM!</string>
     <string name="stock_android_desc">
@@ -261,7 +261,7 @@
     <string name="error_reading_keyboard_list">Fout bij lezen toetsenbord lijst</string>
     <string name="no_keyboard_enabled">Geen toetsenbord ingeschakeld!</string>
     <string name="no_keyboard_enabled_desc">Ga A.U.B. naar\n
-        Instellingen -> Systeem -> Taal &amp; invoer -> Virtueel toetsenbord -> Beheer toetsenborden\n
+        "Instellingen -> Systeem -> Taal &amp; invoer -> Virtueel toetsenbord -> Beheer toetsenborden\n
         om een toetsenbord in te schakelen
     </string>
     <string name="selected_keyboard_not_present_in_backup">is niet aanwezig in back-up</string>
@@ -270,7 +270,7 @@
         <b>Contacten</b> : Back-up contact data als vcf\n
         <b>SMS-berichten</b> : Backup SMS berichten\n
         <b>Oproepgeschiedenis</b> : Back-up oproepgeschiedenis. Favorieten zijn niet inbegrepen\n
-        <b>Scherm DPI</b> : Back-up huidige DPI-instlling\n
+        <b>Scherm DPI</b> : Back-up huidige DPI-instelling\n
         <b>Standaard toetsenbord</b> : Back-up huidige toetsenboard selectie. Manuele selectie is nodig\n
         <b>App-installaprogramma\'s</b> : Het systeem gaat er vanuit dat herstelde apps uit de Play Store of F-droid komen.\n
         <b>ADB status</b> : Back-up de ADB status (USB foutoplossing)\n
@@ -285,7 +285,7 @@
     [Module gemaakt door ontwikkelaar Romain.]
     </string>
     <string name="please_select_sd_card">Selecteer A.U.B. een SD-kaart</string>
-    <string name="sd_card_not_rw">SD-kaart mag mogelijk niet als R/W worden gekoppeld</string>
+    <string name="sd_card_not_rw">SD-kaart mag niet als R/W worden gekoppeld</string>
     <string name="sd_card_not_rw_exp">Externe SD-kaart is mogelijk niet toegankelijk. Weer er zeker van dat de \"ExSDCard Access Enabler\" module is geïnstalleerd in Magisk.\n\n
     [Module gemaakt door ontwikkelaar Romain.]
     </string>
@@ -300,10 +300,10 @@
     <string name="contacts_selector_label">Selecteer contacten</string>
     <string name="calls_selector_label">Selecteer oproepen</string>
     <string name="installer_selector_label">Selecteer installatieprogramma</string>
-    <string name="set_installer_for_all">Selecteer te grbuiken installieprogramma voor alle geselecteerde app\'s</string>
+    <string name="set_installer_for_all">Selecteer te grbuiken installatieprogramma voor alle geselecteerde app\'s</string>
     <string name="no_contacts">Geen inhoud!</string>
     <string name="no_sms">Geen SMS!</string>
-    <string name="no_calls"Geen oproepgeschiedenis!</string>
+    <string name="no_calls">Geen oproepgeschiedenis!</string>
     <string name="fdroid_extension">Om F-Droid als een installatieprogramma in te stellen, moet je de F-Droid privileged extension flashen.</string>
 
     <!--progress_layout-->
@@ -321,7 +321,7 @@
     <string name="noErrors">Klaar! Geen fouten.</string>
     <string name="zipping_all_files">Bestanden zippen</string>
     <string name="making_file_list">Bestandslijst maken</string>
-    <string name="verifying_zip">Zip controleren</string>
+    <string name="verifying_zip">Zip-bestand verifiëren</string>
     <string name="listing_zip_file">Inhoud zip-bestand bekijken</string>
     <string name="compared_zip_contents">Vergeleken zip inhoud</string>
     <string name="compared_fileList_contents">Vergeleken bestandslijst inhoud</string>
@@ -339,7 +339,7 @@
     <string name="backing_sms">SMS back-uppen</string>
     <string name="backing_calls">Oproepen back-uppen</string>
     <string name="verifying_calls">Oproepen verifiëren</string>
-    <string name="verifying_sms">SMS verifiëren</string>
+    <string name="verifying_sms">SMS\'en verifiëren</string>
     <string name="call_logs_incomplete">Oproepgeschiedenis incompleet</string>
     <string name="sms_records_incomplete">SMS bestanden incompleet</string>
     <string name="backing_dpi">DPI back-uppen</string>
@@ -381,8 +381,7 @@
         the <b>Data</b> and/or <b>Perm</b> of that app will not be restored.
         \n
         Eerder was het zo dat bij het selecteren van <b>Data</b>, de <b>App</b> ook geback-upt moest worden. Dit is niet langer het geval. Bovendien onthoudt Migrate nu de geselecteerde app\'s voor de back-up.
-        Let er A.U.B. op dat als je gekozen hebt om niet de <b>App</b> maar wel de <b>Data</b> en/of <b>Permissies</b> van een app te back-uppen,
-        bij herstel via <b>Migrate helper</b> de <b>Data</b> en/of <b>Permissies</b> alleen worden hersteld als de app reeds geïnstalleerd is.
+        Let er A.U.B. op dat als je gekozen hebt om niet de <b>App</b> maar wel <b>Data</b> en/of <b>Perm</b> van een app te back-uppen, bij herstel via <b>Migrate helper</b> de <b>Data</b> en/of <b>Permissies</b> alleen worden hersteld als de app reeds geïnstalleerd is.
     </string>
     <string name="backup_activity_help_2">
         \n
@@ -399,11 +398,11 @@
 
     <!--MainActivity.java-->
     <string name="too_fast">Wauw, te snel!!</string>
-    <string name="too_fast_desc">De app is niet expliciet getest op Android versies boven Pie (9.0).\n\nStuur A.U.B. je feedback over of de app werkt (in het Engels).</string>
-    <string name="dont_show_again">Niet weer laten zien</string>
-    <string name="dont_show_stock_warning">Niet weer laten zien</string>
+    <string name="too_fast_desc">De app is niet expliciet getest op Android versies boven Pie (9.0).\n\nStuur A.U.B. je feedback of de app werkt (in het Engels).</string>
+    <string name="dont_show_again">Niet opnieuw laten zien</string>
+    <string name="dont_show_stock_warning">Niet opnieuw laten zien</string>
     <string name="stock_android_rom">AOSP aangeraden</string>
-    <string name="please_wait">Even wachten</string>
+    <string name="please_wait">Even wachten A.U.B.</string>
     <string name="reading_data">Back-up data lezen</string>
     <string name="making_app_script">App hulp-bestanden maken</string>
     <string name="just_a_minute">Momentje...</string>
@@ -422,106 +421,106 @@
     <string name="moving_files">Bestanden verplaatsen</string>
     <string name="use_reflection">Gebruik reflectie?</string>
     <string name="use_reflection_exp">Reflectie is een experimentele manier voor het berekenen van grootte in Nougat en lager. Dit kan een betere manier zijn om grootte te berekenen. Aangeraden: Ja</string>
-    <string name="use_usage_access_permission">Grant usage access permission?</string>
-    <string name="usage_access_permission_needed_desc">A new, faster and more reliable method has been added to calculate size of apps before backup.\n\nPlease click Proceed, scroll and select \"Migrate\" then enable \"Permit usage access\"</string>
-    <string name="storage_access_required">Please grant storage access to write backups.</string>
-    <string name="checking_permissions">Checking Storage and Root access</string>
-    <string name="rate_dialog_title">Your opinion is important</string>
-    <string name="rate_dialog_message">If this app has helped you, please consider giving a rating and/or a review.</string>
-    <string name="sure">Sure</string>
+    <string name="use_usage_access_permission">Sta gebruikstoegang toe?</string>
+    <string name="usage_access_permission_needed_desc">Een nieuwe, snellere en betrouwbaardere methode is toegevoegd om voor de back-up de grootte van apps te berekenen.\n\nKlik A.U.B. op \"Verder\", scroll en selecteer \"Migrate\" en zet dan \"Sta gebruikstoegang toe\" aan.</string>
+    <string name="storage_access_required">Sta A.U.B. toegang tot opslag toe om back-ups te schrijven.</string>
+    <string name="checking_permissions">Opslag en root-toegang controleren</string>
+    <string name="rate_dialog_title">Jouw mening is belanrijk</string>
+    <string name="rate_dialog_message">Indien deze app je geholpen heeft, overweeg A.U.B. een beoordeling en/of review te geven.</string>
+    <string name="sure">Zeker</string>
     <string name="later">Later</string>
-    <string name="never_show">Never show</string>
-    <string name="unsupported_device">Unsupported device.</string>
-    <string name="cpu_arch_is">Your CPU arch is:</string>
-    <string name="currently_supported_cpu">Only <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU architectures are currently supported. Please contact via mail to help support your device.</string>
-    <string name="proceed">Proceed</string>
-    <string name="usage_permission_toast">Scroll and select \"Migrate\" and click \"Permit usage access\"!</string>
-    <string name="old_method_will_be_used">Use old terminal method</string>
-    <string name="update_available">Update available!</string>
+    <string name="never_show">Nooit laten zien</string>
+    <string name="unsupported_device">Niet ondersteunt apparaat.</string>
+    <string name="cpu_arch_is">Je CPU architectuur is:</string>
+    <string name="currently_supported_cpu">Alleen <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU architecturen worden ondersteunt op dit moment. Neem A.U.B. contact op via email om jouw apparaat te helpen ondersteunen (in het Engels).</string>
+    <string name="proceed">Verder</string>
+    <string name="usage_permission_toast">Scroll en selecteer \"Migrate\" en tik op \"Sta gebruikstoegang toe\"!</string>
+    <string name="old_method_will_be_used">Gebruik oude terminal methode</string>
+    <string name="update_available">Update beschikbaar!</string>
     <string name="download">Download</string>
 
     <!--AppListAdapter.java-->
-    <string name="packageName">Package :</string>
-    <string name="versionName">Version name :</string>
-    <string name="uid">UID :</string>
-    <string name="sourceDir">Source dir :</string>
-    <string name="dataDir">Data dir :</string>
-    <string name="installer">Installer: </string>
+    <string name="packageName">Pakket :</string>
+    <string name="versionName">Versie naam :</string>
+    <string name="uid">UID: </string>
+    <string name="sourceDir">Bron map: </string>
+    <string name="dataDir">Data ma[: </string>
+    <string name="installer">Installatieprogramma: </string>
     <string name="play_store">Play Store</string>
-    <string name="package_installer">Package installer</string>
+    <string name="package_installer">Pakket installatieprogramma</string>
     <string name="f_droid">F-Droid</string>
-    <string name="not_set">Don\'t set</string>
+    <string name="not_set">Niet instellen</string>
 
     <!--AppBackupEngine.kt-->
-    <string name="script_file_does_not_exist">Script file does not exist</string>
+    <string name="script_file_does_not_exist">Script bestand bestaat niet</string>
 
     <!--VerificationEngine.kt-->
-    <string name="defect_no">Defect number:</string>
+    <string name="defect_no">Defect nummer:</string>
     
     <!--keyboard_selector.xml-->
-    <string name="select_default_keyboard_from_enabled">Select default keyboard from enabled keyboards</string>
-    <string name="present_in_backup">Present in backup</string>
+    <string name="select_default_keyboard_from_enabled">Selecteer standaard toetsenbord uit ingeschakelde toetsenborden</string>
+    <string name="present_in_backup">Aanwezig in back-up</string>
 
     <!--error_report_layout.xml-->
-    <string name="report_header">Report via Telegram</string>
-    <string name="share_progress_logs">Share progress logs</string>
-    <string name="share_error_logs">Share error logs</string>
-    <string name="share_script">Share script</string>
-    <string name="send_to_tg">Send to Telegram</string>
-    <string name="agree_and_send">Agree and send</string>
-    <string name="error_report_disclaimer">Thanks for your interest in helping to improve this app. From now on, all error reports are to be sent in our Telegram group - https://t.me/migrateApp.
-        As such, you will get faster resolution from many people in the group.\n\n
-        By sharing logs, you agree to <b>PUBLICLY</b> share some information.
+    <string name="report_header">Melden via Telegram (in het Engels)</string>
+    <string name="share_progress_logs">Deel voortgangs-logs</string>
+    <string name="share_error_logs">Deel fout-logs</string>
+    <string name="share_script">Deel script</string>
+    <string name="send_to_tg">Stuur naar Telegram</string>
+    <string name="agree_and_send">Akkoord en verzenden</string>
+    <string name="error_report_disclaimer">Dank voor je interesse in het verbeteren van de app. Vanaf nu worden alle foutrapporten naar onze Telegram groep gestuurd - https://t.me/migrateApp.
+        Als resultaat zil je sneller oplossing krijgen van veel mensen in de groep.\n\n
+        Met het delen van logs ga akkoord met het <b>PUBLIEKELIJK</b> delen van sommige informatie.
     </string>
-    <string name="not_joined_yet">Not joined in our group yet?</string>
-    <string name="send_logs_using">Send logs using:</string>
-    <string name="log_files_do_not_exist">Log files do not exist</string>
-    <string name="progress_log_does_not_exist">\"progressLog\" does not exist</string>
-    <string name="error_log_does_not_exist">\"errorLog\" does not exist</string>
-    <string name="backup_script_does_not_exist">Backup scripts do not exist</string>
-    <string name="tg_not_installed">Our Telegram group helps to get quick resolutions to problems.</string>
-    <string name="tg_not_installed_desc">Please install Telegram and join our group.</string>
-    <string name="install_tg">Install Telegram</string>
-    <string name="join_group">Join group</string>
-    <string name="use_email_instead">Use old email</string>
+    <string name="not_joined_yet">Nog niet aangemeld in onze groep?</string>
+    <string name="send_logs_using">Stuur logs met:</string>
+    <string name="log_files_do_not_exist">Log bestanden bestaan niet</string>
+    <string name="progress_log_does_not_exist">\"progressLog\" bestaat niet</string>
+    <string name="error_log_does_not_exist">\"errorLog\" bestaat niet</string>
+    <string name="backup_script_does_not_exist">Back-up scripts bestaan niet</string>
+    <string name="tg_not_installed">Onze Telegram group helpt om sneller oplossingen te vinden.</string>
+    <string name="tg_not_installed_desc">Installeer A.U.B. Telegram en meld je aan voor onze groep.</string>
+    <string name="install_tg">Installeer Telegram</string>
+    <string name="join_group">Meld je aan</string>
+    <string name="use_email_instead">In plaats daarvan, gebruik oude email</string>
 
     <!--backup_progress_layout.xml-->
-    <string name="report">Report</string>
-    <string name="minimizing_may_decrease_speed">Minimizing this screen may decrease backup speed!</string>
+    <string name="report">Rapport</string>
+    <string name="minimizing_may_decrease_speed">Op de achtergrond kan het zijn dat de app langzamer werkt!</string>
     
     <!--initial_guide.xml-->
-    <string name="skip">Skip</string>
-    <string name="accept">Accept</string>
+    <string name="skip">Overslaan</string>
+    <string name="accept">Accepteer</string>
     
     <!--initial_guide_0.xml-->
-    <string name="greet1">Welcome to migrate!</string>
-    <string name="body_0_0">Migrate is a vital tool to jump between various custom ROMs with ease.\n\nIt helps you to transfer your apps, data, contacts, sms and much more.</string>
-    <string name="body_0_1">Press Next for a short tour.</string>
+    <string name="greet1">Welkom bij Migrate!</string>
+    <string name="body_0_0">Migrate is een vitale tool om makkelijk tussen verschillende ROM\'s te wisselen.\n\nHet helpt je met het overzetten van je app\'s, data, contacten, SMS'en en nog veel meer.</string>
+    <string name="body_0_1">Tik op \"Verder\" voor een korte tour.</string>
     
     <!--initial_guide_1.xml-->
-    <string name="greet2">Backup everything!</string>
-    <string name="body_1_0">Backup all applications</string>
-    <string name="body_1_1">Apps\nApp data\nApp permissions</string>
-    <string name="body_1_2">Other extras</string>
+    <string name="greet2">Back-up alles!</string>
+    <string name="body_1_0">Back-up alle app's!</string>
+    <string name="body_1_1">App\'s\nApp data\nApp permissies</string>
+    <string name="body_1_2">Andere extra\'s</string>
     
     <!--initial_guide_2.xml-->
-    <string name="greet3">Flash with the ROM!</string>
-    <string name="body_2_0">Migrate backup packages are TWRP flashable zip files.\n\nA helper app takes over the app restoration process once you boot up your new ROM.</string>
-    <string name="body_2_1">After boot up, you will be automatically prompted to continue restore</string>
+    <string name="greet3">Flash met de ROM!</string>
+    <string name="body_2_0">Migrate back-up paketten zijn in TWRP flashbare zip bestanden.\n\nEen helper app neem het app herstel-proces over zodra je je nieuwe ROM opstart.</string>
+    <string name="body_2_1">Na opstarten zil je gevraagd worden om verder te gaan met herstellen</string>
 
     <!--initial_guide_3.xml-->
-    <string name="greet4">Few things before you start…</string>
-    <string name="body_3_0"><b>PLEASE USE MAGISK</b>. Lineage OS su addon causes unexpected behavior.</string>
-    <string name="body_3_1">This app is still in its infancy. As a result, there might be bugs.\n\n
-        Migrate is a root based app.\n\n
-        BY USING THIS APP YOU ACCEPT THAT YOU KNOW THE HAZARDS OF ROOTING AND THEREBY USING A ROOT BASED APP. YOU ACKNOWLEDGE THAT THE DEVELOPER WILL NOT BE HELD RESPONSIBLE FOR BRICKED DEVICES OR DEAD HARDWARE, AND THAT ANY LOSS THAT MIGHT HAPPEN TO YOUR DATA IS COMPLETELY UNINTENTIONAL.\n\n
-        A nandroid backup is the safest backup method compared to any app based backup method. In case of any issues, please contact the developer.
+    <string name="greet4">Een paar dingen voordat je begint…</string>
+    <string name="body_3_0"><b>GEBRUIK A.U.B. MAGISK</b>. Lineage OS su addon veroorzaakt onverwacht gedrag.</string>
+    <string name="body_3_1">Deze app staat nog in de kinderschoenen. Dat heeft als resultaat dat er nog bugs kunnen zijn.\n\n
+        Migrate is een op root gebasseerde app.\n\n
+        MET HET GEBRUIKEN VAN DEZE APP ACCEPTEERDE JE DAT JE BEKENT BENT MET DE RISICO\'S VAN ROOTEN EN HET GEBRUIK VAN EEN OP ROOT GEBASSEERDE APP. JE AANVAARD DAT DE ONTWIKKELAAR NIET VERANTWOORDELIJK ZAL WORDEN GEHOUDEN VOOR GEBRICKTE APPARATEN OF KAPOTTE HARDWARE EN DAT MOGELIJK VERLIES VAN DATA NOOIT MET OPZET GEBEURD.\n\n
+        Een nandroid back-up is, vergeleken met welke app back-up applicatie dan ook, de meest veilige back-up. In het geval van problemen, neem A.U.B. contact op met de ontwikkelaar (in het Engels).
     </string>
 
     <!--how_to_restore.xml-->
-    <string name="prev">Previous</string>
-    <string name="got_it">Got it!</string>
-    <string name="troubleshooting_tips">Troubleshooting tips</string>
+    <string name="prev">Vorige</string>
+    <string name="got_it">Duidelijk!</string>
+    <string name="troubleshooting_tips">Tips voor fouten</string>
 
     <!--restore_0.xml-->
     <string name="step_0">Step 0 -\nTake a backup!</string>
