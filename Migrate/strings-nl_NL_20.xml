@@ -188,7 +188,7 @@
     <string name="adb_label">ADB status</string>
     <string name="no_default_adb_scale">Systeem heeft geen standaard ADB-verbinding waarde. In de meeste gevallen betekent dit dat de waarde 0 is. (ADB uitgeschakeld)
     Wil je deze waarde back-uppen als 0?</string>
-    <string name="installer_label">App-installateurs</string>
+    <string name="installer_label">App-installatieprogramma\'s</string>
     <string name="wifi_label">Bestand met Wi-Fi wachtwoorden</string>
     <string name="fontScale_label">Lettertype schaal</string>
     <string name="no_default_font_scale">Systeem heeft geen standaard lettertype schaal waarde. In de meeste gevallen betekent dit dat de waarde 1.0 is.
@@ -272,152 +272,156 @@
         <b>Oproepgeschiedenis</b> : Back-up oproepgeschiedenis. Favorieten zijn niet inbegrepen\n
         <b>Scherm DPI</b> : Back-up huidige DPI-instlling\n
         <b>Standaard toetsenbord</b> : Back-up huidige toetsenboard selectie. Manuele selectie is nodig\n
-        <b>App-installateurs</b> : Het systeem gaat er vanuit dat herstelde apps uit de Play Store of F-droid komen.\n
+        <b>App-installaprogramma\'s</b> : Het systeem gaat er vanuit dat herstelde apps uit de Play Store of F-droid komen.\n
         <b>ADB status</b> : Back-up de ADB status (USB foutoplossing)\n
         <b>Lettertype schaal</b> : Lettertype grootte is geback-upt\n
         \n
         Na het aanvinken van een item, tik op het item voor meer opties.
     </string>
-    <string name="change_size_calculation_method">You can try going to the main screen of the app -> \"Preferences\" -> Uncheck \"Use new method to calculate size\"</string>
-    <string name="no_sd_card_detected">No SD card detected (or not mounted as R/W).</string>
-    <string name="no_sd_card_detected_exp">Please make sure that you have mounted an external SD card (if supported by your device)\n
-    Also make sure that you install the \"ExSDCard Access Enabler\" magisk module.\n\n
-    [module made by developer Romain.]
+    <string name="change_size_calculation_method">Je kan proberen om vanuit het hoofdscherm naar \"Instellingen\" te gaan, en \"Gebruik nieuwe methode om grootte te berekenen\" uit te vinken.</string>
+    <string name="no_sd_card_detected">Geen SD-kaart detecteerd (of niet gekoppeld als R/W).</string>
+    <string name="no_sd_card_detected_exp">Wees er A.U.B. zeker van dat er een externe SD-kaart gekoppeld is (indien ondersteunt door jouw apparaat)\n
+    Installeer ook de \"ExSDCard Access Enabler\" Magisk module.\n\n
+    [Module gemaakt door ontwikkelaar Romain.]
     </string>
-    <string name="please_select_sd_card">Please select sd card</string>
-    <string name="sd_card_not_rw">SD Card may not be mounted in R/W</string>
-    <string name="sd_card_not_rw_exp">External SD card may not be accessible. Make sure that \"ExSDCard Access Enabler\" module is installed in Magisk.\n\n
-    [module made by developer Romain.]
+    <string name="please_select_sd_card">Selecteer A.U.B. een SD-kaart</string>
+    <string name="sd_card_not_rw">SD-kaart mag mogelijk niet als R/W worden gekoppeld</string>
+    <string name="sd_card_not_rw_exp">Externe SD-kaart is mogelijk niet toegankelijk. Weer er zeker van dat de \"ExSDCard Access Enabler\" module is geïnstalleerd in Magisk.\n\n
+    [Module gemaakt door ontwikkelaar Romain.]
     </string>
-    <string name="no_busybox_binary">\"busybox\" not available!</string>
-    <string name="re_calculating_size">Re-calculating size using terminal method</string>
-    <string name="error_occurred">Error occurred!!</string>
-    <string name="wait_while_reading_data">Data is being read</string>
-    <string name="wait_while_reading_data_desc">Please wait till the data is completely read. Try again later.</string>
+    <string name="no_busybox_binary">\"busybox\" niet bescchikbaar!</string>
+    <string name="re_calculating_size">Herberekning grootte met terminal methode</string>
+    <string name="error_occurred">Er is een fout opgetreden!!</string>
+    <string name="wait_while_reading_data">Data wordt gelezen</string>
+    <string name="wait_while_reading_data_desc">Wacht A.U.B. tot de data volledig gelezen is. Probeer het later opnieuw.</string>
 
     <!--extra_item_selector.xml-->
-    <string name="sms_selector_label">Select SMS</string>
-    <string name="contacts_selector_label">Select contacts</string>
-    <string name="calls_selector_label">Select calls</string>
-    <string name="installer_selector_label">Select installer</string>
-    <string name="set_installer_for_all">Select installer to be set for all selected apps</string>
-    <string name="no_contacts">No contacts!</string>
-    <string name="no_sms">No sms!</string>
-    <string name="no_calls">No call logs!</string>
-    <string name="fdroid_extension">To set F-Droid as an installer, you must flash the F-Droid privileged extension.</string>
+    <string name="sms_selector_label">Selecteer SMS</string>
+    <string name="contacts_selector_label">Selecteer contacten</string>
+    <string name="calls_selector_label">Selecteer oproepen</string>
+    <string name="installer_selector_label">Selecteer installatieprogramma</string>
+    <string name="set_installer_for_all">Selecteer te grbuiken installieprogramma voor alle geselecteerde app\'s</string>
+    <string name="no_contacts">Geen inhoud!</string>
+    <string name="no_sms">Geen SMS!</string>
+    <string name="no_calls"Geen oproepgeschiedenis!</string>
+    <string name="fdroid_extension">Om F-Droid als een installatieprogramma in te stellen, moet je de F-Droid privileged extension flashen.</string>
 
     <!--progress_layout-->
-    <string name="loading">Loading…</string>
-    <string name="cancelling">Cancelling…</string>
-    <string name="start_backup">Start backup</string>
+    <string name="loading">Laden…</string>
+    <string name="cancelling">Annuleren…</string>
+    <string name="start_backup">Start back-up</string>
 
     <!--BackupProgressLayout.java-->
-    <string name="split_desc_1">Due to huge backup size, your backup is being split in</string>
-    <string name="split_desc_2">In TWRP, please install all the zips for full restore.</string>
+    <string name="split_desc_1">Vanwege een te grote back-up, wordt je back-up gesplitst in</string>
+    <string name="split_desc_2">In TWRP, selecteer A.U.B. alle zip\'s voor volledig herstel.</string>
 
     <!--BackupEngine.java-->
-    <string name="close">Close</string>
-    <string name="backingUp">Backing up apps</string>
-    <string name="noErrors">Finished! No errors.</string>
-    <string name="zipping_all_files">Zipping files</string>
-    <string name="making_file_list">Making fileList</string>
-    <string name="verifying_zip">Verifying zip</string>
-    <string name="listing_zip_file">Listing zip file</string>
-    <string name="compared_zip_contents">Compared zip contents</string>
-    <string name="compared_fileList_contents">Compared file list contents</string>
-    <string name="zip_size_too_big">Zip size is greater than the maximum allowed size. Please go to Preferences -> Max. Zip size</string>
-    <string name="storing_wifi_data">Storing wifi data</string>
-    <string name="testing_system">Testing system</string>
-    <string name="writing_settings">Writing settings</string>
-    <string name="making_package_flash_ready">Making package flash ready</string>
-    <string name="making_updater_script">Making updater-script</string>
-    <string name="backing_app_permissions">Backing app permissions</string>
-    <string name="verifying_backups">Verifying backup</string>
-    <string name="verifying_tar">Verifying_tar</string>
-    <string name="correcting_errors">Correcting errors</string>
-    <string name="backing_contacts">Backing up contacts</string>
-    <string name="backing_sms">Backing up sms</string>
-    <string name="backing_calls">Backing up calls</string>
-    <string name="verifying_calls">Verifying calls</string>
-    <string name="verifying_sms">Verifying sms</string>
-    <string name="call_logs_incomplete">Call logs incomplete</string>
-    <string name="sms_records_incomplete">Sms records incomplete</string>
-    <string name="backing_dpi">Backing up DPI</string>
-    <string name="backing_keyboard">Backing up keyboard</string>
-    <string name="errorMakingScripts">Error making scripts</string>
-    <string name="backupCancelled">Backup cancelled</string>
-    <string name="errorStartingBackup">Error starting backup (onStartCommand).</string>
-    <string name="deletingFiles">Deleting files</string>
-    <string name="backupFinishedWithErrors">Backup finished with errors!</string>
-    <string name="backupFinishedWithWarnings">Backup finished with warnings!</string>
-    <string name="backupPartHadErrors">Backup part had errors.</string>
-    <string name="incompleteZip">Not all files could be combined.</string>
-    <string name="no_keyboard_data">No keyboard data</string>
+    <string name="close">Sluiten</string>
+    <string name="backingUp">Back-uppen van app\'s</string>
+    <string name="noErrors">Klaar! Geen fouten.</string>
+    <string name="zipping_all_files">Bestanden zippen</string>
+    <string name="making_file_list">Bestandslijst maken</string>
+    <string name="verifying_zip">Zip controleren</string>
+    <string name="listing_zip_file">Inhoud zip-bestand bekijken</string>
+    <string name="compared_zip_contents">Vergeleken zip inhoud</string>
+    <string name="compared_fileList_contents">Vergeleken bestandslijst inhoud</string>
+    <string name="zip_size_too_big">Zip-bestand is groter dan maximaal toegestaan. Ga A.U.B. naar \"Preferences\" -> \"Max. zip grootte\"</string>
+    <string name="storing_wifi_data">Wi-Fi data opslaan</string>
+    <string name="testing_system">Systeem testen</string>
+    <string name="writing_settings">Instellingen schrijven</string>
+    <string name="making_package_flash_ready">Flash-klaar maken van pakket</string>
+    <string name="making_updater_script">updater-script maken</string>
+    <string name="backing_app_permissions">Permissies back-uppen</string>
+    <string name="verifying_backups">Back-up verifiëren</string>
+    <string name="verifying_tar">Tar verifiëren</string>
+    <string name="correcting_errors">Fouten corrigeren</string>
+    <string name="backing_contacts">Contacten back-uppen</string>
+    <string name="backing_sms">SMS back-uppen</string>
+    <string name="backing_calls">Oproepen back-uppen</string>
+    <string name="verifying_calls">Oproepen verifiëren</string>
+    <string name="verifying_sms">SMS verifiëren</string>
+    <string name="call_logs_incomplete">Oproepgeschiedenis incompleet</string>
+    <string name="sms_records_incomplete">SMS bestanden incompleet</string>
+    <string name="backing_dpi">DPI back-uppen</string>
+    <string name="backing_keyboard">Toetsenbord back-uppen</string>
+    <string name="errorMakingScripts">Fout bij maken scripts</string>
+    <string name="backupCancelled">Back-up geannuleerd</string>
+    <string name="errorStartingBackup">Fout bij starten back-up (onStartCommand).</string>
+    <string name="deletingFiles">Bestanden verwijderen</string>
+    <string name="backupFinishedWithErrors">Back-up afgerond met fouten!</string>
+    <string name="backupFinishedWithWarnings">Back-up afgerond met waarschuwingen!</string>
+    <string name="backupPartHadErrors">Back-up had fouten.</string>
+    <string name="incompleteZip">Niet alle bestanden konden worden gecombineerd.</string>
+    <string name="no_keyboard_data">Geen toetsenbord data</string>
 
-    <string name="failed_to_make_batches">Failed to make batches</string>
-    <string name="backup_error_system_check_failed">Backup cancelled because system check failed.</string>
-    <string name="backup_error_updater_script">Backup failed at updater script.</string>
-    <string name="backup_error_at_app_verification">Backup failed at app verification.</string>
-    <string name="errors_in_batch">Errors found in batch</string>
-    <string name="zip_size">Zip size</string>
+    <string name="failed_to_make_batches">Fout bij maken van batches</string>
+    <string name="backup_error_system_check_failed">Back-up geannuleerd omdat systeem controle mislukte.</string>
+    <string name="backup_error_updater_script">Back-up mislukt bij updater-script.</string>
+    <string name="backup_error_at_app_verification">Back-up mislukt bij app verificatie.</string>
+    <string name="errors_in_batch">Fouten gevonden in batch</string>
+    <string name="zip_size">Zip-grootte</string>
 
     <!--BackupActivity.java-->
-    <string name="setBackupName">Set backup name</string>
-    <string name="overwrite">Overwrite?</string>
-    <string name="overwriteMessage">A backup with same name already exists. Do you want to overwrite?</string>
-    <string name="yes">Yes</string>
-    <string name="rename">No, rename</string>
-    <string name="backupNameCannotBeEmpty">Backup name cannot be empty</string>
+    <string name="setBackupName">Stel back-up naam in</string>
+    <string name="overwrite">Overschrijven?</string>
+    <string name="overwriteMessage">Een backup met dezelfde naam bestaat al. Wil je deze overschrijven?</string>
+    <string name="yes">Ja</string>
+    <string name="rename">Nee, hernoemen</string>
+    <string name="backupNameCannotBeEmpty">Back-up naam mag niet leeg zijn</string>
     <string name="backup_activity_help_0">
-        <b>App</b> : Backup the apk\n
-        <b>Data</b> : Backup all private data\n
-        <b>Perm</b> : Backup all granular permissions\n
-        \n<i>Following is an example of granular permissions from the Google Photos app</i>\n
+        <b>App</b> : APK back-uppen\n
+        <b>Data</b> : Privé data back-uppen\n
+        <b>Perm</b> : Permissies in detail back-uppen\n
+        \n<i>Het volgende is een voorbeeld van detail permissies van de Google Photos app</i>\n
     </string>
     <string name="backup_activity_help_1">
         \n
         Previously, selecting <b>Data</b> of an app meant you had to backup the <b>App</b> also. This is no longer the case. Moreover, Migrate now remembers the apps selected for backup.
         Please note that if you decided not to backup <b>App</b> but <b>Data</b> and/or <b>Perm</b> of an application, then if the app is not already installed before starting restore via <b>Migrate helper</b>,
         the <b>Data</b> and/or <b>Perm</b> of that app will not be restored.
+        \n
+        Eerder was het zo dat bij het selecteren van <b>Data</b>, de <b>App</b> ook geback-upt moest worden. Dit is niet langer het geval. Bovendien onthoudt Migrate nu de geselecteerde app\'s voor de back-up.
+        Let er A.U.B. op dat als je gekozen hebt om niet de <b>App</b> maar wel de <b>Data</b> en/of <b>Permissies</b> van een app te back-uppen,
+        bij herstel via <b>Migrate helper</b> de <b>Data</b> en/of <b>Permissies</b> alleen worden hersteld als de app reeds geïnstalleerd is.
     </string>
     <string name="backup_activity_help_2">
         \n
-        <b>Apps in white:</b> Normal user apps\n
-        <b>Apps in yellow:</b> System apps which have been updated from Google Play Store or elsewhere. The updated APKs reside in the <b>/data</b> directory and not in system directories.\n
-        <b>Apps in red:</b> System apps which have not been updated.
+        <b>App\'s in wit:</b> Normale gebruiker app\'s\n
+        <b>App\'s in geel:</b> Systeem app\'s die niet zijn bijgewerkt uit de Google Play Store of elders. De bijgewerkte APK\'s bevinden zich in de <b>/data</b> map en niet in systeem mappen.\n
+        <b>App\'s in rood:</b> Systeem app\'s die niet zijn bijgwerkt.
     </string>
-    <string name="bootloop_warning">Bootloop warning!</string>
-    <string name="bootloop_warning_desc">Backing up and restoring system apps may result in a bootloop. Please proceed with caution.</string>
+    <string name="bootloop_warning">Bootloop waarschuwing!</string>
+    <string name="bootloop_warning_desc">Back-uppen en herstellen van systeem-app\'s kan resulteren in een bootloop. Wees voorzichtig.</string>
 
     
     <!--BackupService.java-->
-    <string name="error_loading_engine">Error loading engine</string>
+    <string name="error_loading_engine">Fout bij starten engine</string>
 
     <!--MainActivity.java-->
-    <string name="too_fast">Whoa, too fast!!</string>
-    <string name="too_fast_desc">The app has not been explicitly tested on Android version above Pie (9.0).\n\nPlease submit your feedback on whether the app works or not.</string>
-    <string name="dont_show_again">Don\'t show again</string>
-    <string name="dont_show_stock_warning">Don\'t show again</string>
-    <string name="stock_android_rom">Stock android ROM recommended</string>
-    <string name="please_wait">Please wait</string>
-    <string name="reading_data">Reading backup data</string>
-    <string name="making_app_script">Making app auxiliary files</string>
-    <string name="just_a_minute">Just a minute…</string>
-    <string name="starting_engine">Starting backup engine</string>
-    <string name="root_permission_denied">Root permission denied!</string>
-    <string name="root_permission_denied_desc">Please make sure that your device is rooted and you have allowed root permission.\n\n
-    If your ROM was pre-rooted, try flashing Magisk.
+    <string name="too_fast">Wauw, te snel!!</string>
+    <string name="too_fast_desc">De app is niet expliciet getest op Android versies boven Pie (9.0).\n\nStuur A.U.B. je feedback over of de app werkt (in het Engels).</string>
+    <string name="dont_show_again">Niet weer laten zien</string>
+    <string name="dont_show_stock_warning">Niet weer laten zien</string>
+    <string name="stock_android_rom">AOSP aangeraden</string>
+    <string name="please_wait">Even wachten</string>
+    <string name="reading_data">Back-up data lezen</string>
+    <string name="making_app_script">App hulp-bestanden maken</string>
+    <string name="just_a_minute">Momentje...</string>
+    <string name="starting_engine">Back-up engine starten</string>
+    <string name="root_permission_denied">Root toegang geweigerd!</string>
+    <string name="root_permission_denied_desc">Wees er zeker van dat je apparaat geroot is en je root-toegang hebt gegeven.\n\n
+    Als je ROM vooraf geroot was, probeer dan Magisk te flashen.
     </string>
-    <string name="making_packets">Making zip packets</string>
-    <string name="making_batches">Making zip batches</string>
-    <string name="total_extra_size">Extras size</string>
-    <string name="capping_size">Capping size</string>
-    <string name="adding_bigger_apps">Adding bigger apps</string>
-    <string name="adding">Adding</string>
-    <string name="packet">Packet</string>
-    <string name="moving_files">Moving files</string>
-    <string name="use_reflection">Use reflection?</string>
-    <string name="use_reflection_exp">Reflection is an experimental way of calculating size in Nougat and below. This might provide a better way of calculating size. Recommended: Yes</string>
+    <string name="making_packets">Zip pakketten maken</string>
+    <string name="making_batches">Zip batches maken</string>
+    <string name="total_extra_size">Extra\'s grootte</string>
+    <string name="capping_size">Grootte limiteren</string>
+    <string name="adding_bigger_apps">Grotere app\'s toevoegen</string>
+    <string name="adding">Toevoegen</string>
+    <string name="packet">Pakket</string>
+    <string name="moving_files">Bestanden verplaatsen</string>
+    <string name="use_reflection">Gebruik reflectie?</string>
+    <string name="use_reflection_exp">Reflectie is een experimentele manier voor het berekenen van grootte in Nougat en lager. Dit kan een betere manier zijn om grootte te berekenen. Aangeraden: Ja</string>
     <string name="use_usage_access_permission">Grant usage access permission?</string>
     <string name="usage_access_permission_needed_desc">A new, faster and more reliable method has been added to calculate size of apps before backup.\n\nPlease click Proceed, scroll and select \"Migrate\" then enable \"Permit usage access\"</string>
     <string name="storage_access_required">Please grant storage access to write backups.</string>
