@@ -260,12 +260,12 @@
     <string name="go_ahead">Ga verder</string>
     <string name="error_reading_keyboard_list">Fout bij lezen toetsenbord lijst</string>
     <string name="no_keyboard_enabled">Geen toetsenbord ingeschakeld!</string>
-    <string name="no_keyboard_enabled_desc">Ga A.U.B. naar\n
+    <string name="no_keyboard_enabled_desc">Ga a.u.b. naar\n
         "Instellingen -> Systeem -> Taal &amp; invoer -> Virtueel toetsenbord -> Beheer toetsenborden\n
         om een toetsenbord in te schakelen
     </string>
     <string name="selected_keyboard_not_present_in_backup">is niet aanwezig in back-up</string>
-    <string name="selected_keyboard_not_present_in_backup_desc">Back-up app lijst bevat niet het geselecteerde toetsenbord. Ga A.U.B. terug naar \"Selecteer app\'s\" pagina en selecteer toetsenboard app.</string>
+    <string name="selected_keyboard_not_present_in_backup_desc">Back-up app lijst bevat niet het geselecteerde toetsenbord. Ga a.u.b. terug naar \"Selecteer app\'s\" pagina en selecteer toetsenboard app.</string>
     <string name="extra_backups_help">
         <b>Contacten</b> : Back-up contact data als vcf\n
         <b>SMS-berichten</b> : Backup SMS berichten\n
@@ -280,11 +280,11 @@
     </string>
     <string name="change_size_calculation_method">Je kan proberen om vanuit het hoofdscherm naar \"Instellingen\" te gaan, en \"Gebruik nieuwe methode om grootte te berekenen\" uit te vinken.</string>
     <string name="no_sd_card_detected">Geen SD-kaart detecteerd (of niet gekoppeld als R/W).</string>
-    <string name="no_sd_card_detected_exp">Wees er A.U.B. zeker van dat er een externe SD-kaart gekoppeld is (indien ondersteunt door jouw apparaat)\n
+    <string name="no_sd_card_detected_exp">Wees er a.u.b. zeker van dat er een externe SD-kaart gekoppeld is (indien ondersteunt door jouw apparaat)\n
     Installeer ook de \"ExSDCard Access Enabler\" Magisk module.\n\n
     [Module gemaakt door ontwikkelaar Romain.]
     </string>
-    <string name="please_select_sd_card">Selecteer A.U.B. een SD-kaart</string>
+    <string name="please_select_sd_card">Selecteer a.u.b. een SD-kaart</string>
     <string name="sd_card_not_rw">SD-kaart mag niet als R/W worden gekoppeld</string>
     <string name="sd_card_not_rw_exp">Externe SD-kaart is mogelijk niet toegankelijk. Weer er zeker van dat de \"ExSDCard Access Enabler\" module is geïnstalleerd in Magisk.\n\n
     [Module gemaakt door ontwikkelaar Romain.]
@@ -293,7 +293,7 @@
     <string name="re_calculating_size">Herberekning grootte met terminal methode</string>
     <string name="error_occurred">Er is een fout opgetreden!!</string>
     <string name="wait_while_reading_data">Data wordt gelezen</string>
-    <string name="wait_while_reading_data_desc">Wacht A.U.B. tot de data volledig gelezen is. Probeer het later opnieuw.</string>
+    <string name="wait_while_reading_data_desc">Wacht a.u.b. tot de data volledig gelezen is. Probeer het later opnieuw.</string>
 
     <!--extra_item_selector.xml-->
     <string name="sms_selector_label">Selecteer SMS</string>
@@ -313,7 +313,7 @@
 
     <!--BackupProgressLayout.java-->
     <string name="split_desc_1">Vanwege een te grote back-up, wordt je back-up gesplitst in</string>
-    <string name="split_desc_2">In TWRP, selecteer A.U.B. alle zip\'s voor volledig herstel.</string>
+    <string name="split_desc_2">In TWRP, selecteer a.u.b. alle zip\'s voor volledig herstel.</string>
 
     <!--BackupEngine.java-->
     <string name="close">Sluiten</string>
@@ -325,7 +325,7 @@
     <string name="listing_zip_file">Inhoud zip-bestand bekijken</string>
     <string name="compared_zip_contents">Vergeleken zip inhoud</string>
     <string name="compared_fileList_contents">Vergeleken bestandslijst inhoud</string>
-    <string name="zip_size_too_big">Zip-bestand is groter dan maximaal toegestaan. Ga A.U.B. naar \"Preferences\" -> \"Max. zip grootte\"</string>
+    <string name="zip_size_too_big">Zip-bestand is groter dan maximaal toegestaan. Ga a.u.b. naar \"Preferences\" -> \"Max. zip grootte\"</string>
     <string name="storing_wifi_data">Wi-Fi data opslaan</string>
     <string name="testing_system">Systeem testen</string>
     <string name="writing_settings">Instellingen schrijven</string>
@@ -381,7 +381,7 @@
         the <b>Data</b> and/or <b>Perm</b> of that app will not be restored.
         \n
         Eerder was het zo dat bij het selecteren van <b>Data</b>, de <b>App</b> ook geback-upt moest worden. Dit is niet langer het geval. Bovendien onthoudt Migrate nu de geselecteerde app\'s voor de back-up.
-        Let er A.U.B. op dat als je gekozen hebt om niet de <b>App</b> maar wel <b>Data</b> en/of <b>Perm</b> van een app te back-uppen, bij herstel via <b>Migrate helper</b> de <b>Data</b> en/of <b>Permissies</b> alleen worden hersteld als de app reeds geïnstalleerd is.
+        Let er a.u.b. op dat als je gekozen hebt om niet de <b>App</b> maar wel <b>Data</b> en/of <b>Perm</b> van een app te back-uppen, bij herstel via <b>Migrate helper</b> de <b>Data</b> en/of <b>Permissies</b> alleen worden hersteld als de app reeds geïnstalleerd is.
     </string>
     <string name="backup_activity_help_2">
         \n
@@ -398,11 +398,11 @@
 
     <!--MainActivity.java-->
     <string name="too_fast">Wauw, te snel!!</string>
-    <string name="too_fast_desc">De app is niet expliciet getest op Android versies boven Pie (9.0).\n\nStuur A.U.B. je feedback of de app werkt (in het Engels).</string>
+    <string name="too_fast_desc">De app is niet expliciet getest op Android versies boven Pie (9.0).\n\nStuur a.u.b. je feedback of de app werkt (in het Engels).</string>
     <string name="dont_show_again">Niet opnieuw laten zien</string>
     <string name="dont_show_stock_warning">Niet opnieuw laten zien</string>
     <string name="stock_android_rom">AOSP aangeraden</string>
-    <string name="please_wait">Even wachten A.U.B.</string>
+    <string name="please_wait">Even wachten a.u.b.</string>
     <string name="reading_data">Back-up data lezen</string>
     <string name="making_app_script">App hulp-bestanden maken</string>
     <string name="just_a_minute">Momentje...</string>
@@ -422,17 +422,17 @@
     <string name="use_reflection">Gebruik reflectie?</string>
     <string name="use_reflection_exp">Reflectie is een experimentele manier voor het berekenen van grootte in Nougat en lager. Dit kan een betere manier zijn om grootte te berekenen. Aangeraden: Ja</string>
     <string name="use_usage_access_permission">Sta gebruikstoegang toe?</string>
-    <string name="usage_access_permission_needed_desc">Een nieuwe, snellere en betrouwbaardere methode is toegevoegd om voor de back-up de grootte van apps te berekenen.\n\nKlik A.U.B. op \"Verder\", scroll en selecteer \"Migrate\" en zet dan \"Sta gebruikstoegang toe\" aan.</string>
-    <string name="storage_access_required">Sta A.U.B. toegang tot opslag toe om back-ups te schrijven.</string>
+    <string name="usage_access_permission_needed_desc">Een nieuwe, snellere en betrouwbaardere methode is toegevoegd om voor de back-up de grootte van apps te berekenen.\n\nKlik a.u.b. op \"Verder\", scroll en selecteer \"Migrate\" en zet dan \"Sta gebruikstoegang toe\" aan.</string>
+    <string name="storage_access_required">Sta a.u.b. toegang tot opslag toe om back-up te schrijven.</string>
     <string name="checking_permissions">Opslag en root-toegang controleren</string>
     <string name="rate_dialog_title">Jouw mening is belanrijk</string>
-    <string name="rate_dialog_message">Indien deze app je geholpen heeft, overweeg A.U.B. een beoordeling en/of review te geven.</string>
+    <string name="rate_dialog_message">Indien deze app je geholpen heeft, overweeg a.u.b. een beoordeling en/of review te geven.</string>
     <string name="sure">Zeker</string>
     <string name="later">Later</string>
     <string name="never_show">Nooit laten zien</string>
     <string name="unsupported_device">Niet ondersteunt apparaat.</string>
     <string name="cpu_arch_is">Je CPU architectuur is:</string>
-    <string name="currently_supported_cpu">Alleen <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU architecturen worden ondersteunt op dit moment. Neem A.U.B. contact op via email om jouw apparaat te helpen ondersteunen (in het Engels).</string>
+    <string name="currently_supported_cpu">Alleen <b>armeabi-v7a, arm64-v8a, x86, x86_64</b> CPU architecturen worden ondersteunt op dit moment. Neem a.u.b. contact op via email om jouw apparaat te helpen ondersteunen (in het Engels).</string>
     <string name="proceed">Verder</string>
     <string name="usage_permission_toast">Scroll en selecteer \"Migrate\" en tik op \"Sta gebruikstoegang toe\"!</string>
     <string name="old_method_will_be_used">Gebruik oude terminal methode</string>
@@ -479,7 +479,7 @@
     <string name="error_log_does_not_exist">\"errorLog\" bestaat niet</string>
     <string name="backup_script_does_not_exist">Back-up scripts bestaan niet</string>
     <string name="tg_not_installed">Onze Telegram group helpt om sneller oplossingen te vinden.</string>
-    <string name="tg_not_installed_desc">Installeer A.U.B. Telegram en meld je aan voor onze groep.</string>
+    <string name="tg_not_installed_desc">Installeer a.u.b. Telegram en meld je aan voor onze groep.</string>
     <string name="install_tg">Installeer Telegram</string>
     <string name="join_group">Meld je aan</string>
     <string name="use_email_instead">In plaats daarvan, gebruik oude email</string>
@@ -510,11 +510,11 @@
 
     <!--initial_guide_3.xml-->
     <string name="greet4">Een paar dingen voordat je begint…</string>
-    <string name="body_3_0"><b>GEBRUIK A.U.B. MAGISK</b>. Lineage OS su addon veroorzaakt onverwacht gedrag.</string>
+    <string name="body_3_0"><b>GEBRUIK a.u.b. MAGISK</b>. Lineage OS su addon veroorzaakt onverwacht gedrag.</string>
     <string name="body_3_1">Deze app staat nog in de kinderschoenen. Dat heeft als resultaat dat er nog bugs kunnen zijn.\n\n
         Migrate is een op root gebasseerde app.\n\n
         MET HET GEBRUIKEN VAN DEZE APP ACCEPTEERDE JE DAT JE BEKENT BENT MET DE RISICO\'S VAN ROOTEN EN HET GEBRUIK VAN EEN OP ROOT GEBASSEERDE APP. JE AANVAARD DAT DE ONTWIKKELAAR NIET VERANTWOORDELIJK ZAL WORDEN GEHOUDEN VOOR GEBRICKTE APPARATEN OF KAPOTTE HARDWARE EN DAT MOGELIJK VERLIES VAN DATA NOOIT MET OPZET GEBEURD.\n\n
-        Een nandroid back-up is, vergeleken met welke app back-up applicatie dan ook, de meest veilige back-up. In het geval van problemen, neem A.U.B. contact op met de ontwikkelaar (in het Engels).
+        Een nandroid back-up is, vergeleken met welke app back-up applicatie dan ook, de meest veilige back-up. In het geval van problemen, neem a.u.b. contact op met de ontwikkelaar (in het Engels).
     </string>
 
     <!--how_to_restore.xml-->
@@ -541,11 +541,11 @@
         Standaard staat je gemaakte back-up zip onder:\n
         <b>Interne opslag ->\nMigrate ->\n[back-up_naam.zip of back-up_naam -> delen.zip]</b>\n\n
         In TWRP hoofdmenu, tik \"INSTALL\" -> navigeer naar de back-up zip file en flash het.\n\n
-        <b>Belangrijk:</b> Wis data A.U.B. niet na het flashen van back-up zip.
+        <b>Belangrijk:</b> Wis data a.u.b. niet na het flashen van back-up zip.
     </string>
     <string name="step_2_troubleshoot">In sommige situaties, na het flashen van Magisk, kan Migrate ten onrechte system_root detecteren op non-system_root apparaten.
         Je kan een \"No ROM detected\" fout krijgen.
-        In dat geval, ga A.U.B. terug naar TWRP en probeer het opnieuw.</string>
+        In dat geval, ga a.u.b. terug naar TWRP en probeer het opnieuw.</string>
 
     <!--restore_3.xml-->
     <string name="step_3">Stap 3 -\nConfigureer je nieuwe ROM</string>
@@ -568,7 +568,7 @@
     <!--restore_5.xml-->
     <string name="step_5">Stap 5 - \nRond post-herstel taken af</string>
     <string name="step_5_desc_1">Een aantal taken moeten meestal nog gebeuren na herstel. Dit omvat onder andere het veranderen van de standaard SMS-app (indien SMS\'en zijn hersteld) van Migrate helper naar een andere app en de DPI-instelling.</string>
-    <string name="step_5_desc_2">Op Android 10+, Na het wijzigen van de standaard SMS-app, zal het systeem de Migrate helper app geforceerd sluiten. Wacht dan A.U.B. een paar seconden, deze wordt vanzelf opnieuw gestart.</string>
+    <string name="step_5_desc_2">Op Android 10+, Na het wijzigen van de standaard SMS-app, zal het systeem de Migrate helper app geforceerd sluiten. Wacht dan a.u.b. een paar seconden, deze wordt vanzelf opnieuw gestart.</string>
     <string name="step_5_desc_3">Als laatste wil je de helper app waarschijnlijk verwijderen of uitschakelen (voor later gebruik).</string>
     <string name="step_5_troubleshoot">In sommige situaties, Android 10+, kan de Migrate helper app zichzelf niet opnieuw openen, doe dit in dat geval even zelf.
         Er kan je ook verteld worden dat er een andere app op de achtergrond wordt geïnstalleerd.
@@ -629,7 +629,7 @@
     </string>
     <string name="q7">Is het nodig om Magisk te gebruiken?</string>
     <string name="a7">
-        Deze app werkt het beste met Magisk. SuperSU is niet getest. Lineage OS su addon werkt af en toe, maar kan rare fouten veroorzaken. Dus gebruik A.U.B. Magisk.
+        Deze app werkt het beste met Magisk. SuperSU is niet getest. Lineage OS su addon werkt af en toe, maar kan rare fouten veroorzaken. Dus gebruik a.u.b. Magisk.
     </string>
     <string name="more_questions">Meer vragen? Neem gerust contact op via Telegram</string>
 
@@ -655,7 +655,7 @@
 
     <!--miscellaneous-->
     <string name="contact_via_telegram">Contact via Telegram</string>
-    <string name="contact_via_telegram_desc">Voor feedback en ndersteuning, neem A.U.B. contact op met onze Telegram groep. Je zal betere en snelle ondersteuning krijgen van groepsleden.\n\nJe kan er ook voor kiezen persoonlijk contact op te nemen met de ontwikkelaar via Telegram.</string>
+    <string name="contact_via_telegram_desc">Voor feedback en ndersteuning, neem a.u.b. contact op met onze Telegram groep. Je zal betere en snelle ondersteuning krijgen van groepsleden.\n\nJe kan er ook voor kiezen persoonlijk contact op te nemen met de ontwikkelaar via Telegram.</string>
     <string name="contact_dev">Neem contact op met de ontwikkelaar</string>
     <string name="post_in_group">Bericht in groep</string>
     <string name="select_mail">Select een mail-app zoals Gmail</string>
@@ -666,7 +666,7 @@
     - SayantanRC</string>-->
 
     <string name="copied_app">Deze app is gekopieerd en is nep.</string>
-    <string name="copied_app_exp">Haal A.U.B. de originele app op bij BaltiApps door op de Installeer knop te tikken.</string>
+    <string name="copied_app_exp">Haal a.u.b. de originele app op bij BaltiApps door op de Installeer knop te tikken.</string>
     <string name="install_original_migrate">Installeer originele app</string>
 
     <!--preferences.xml-->
@@ -690,9 +690,9 @@
     <string name="perform_system_check_desc">Dit zal een simpele APK en data kopie (van de app zelf) uitvoeren via SU shell vooraf aan elke back-up om te controleren of het back-up systeem werkt.</string>
     <string name="separate_extras_title">Gescheiden extra\'s back-up</string>
     <string name="force_separate_extras">Forceer gescheiden extra\'s</string>
-    <string name="force_separate_extras_desc">Extra\'s zullen zelfs voor kleine back-ups gescheiden zijn</string>
-    <string name="separate_extras_desc">Sla extra\'s (contacten, SMS etc.) op als los zip-bestand en app\'s in gescheiden zip-bestanden. Alleen toepasbaar voor back-ups met meer dan één deel.</string>
-    <string name="delete_error_backup_title">Verwijder back-ups met fouten</string>
+    <string name="force_separate_extras_desc">Extra\'s zullen zelfs voor kleine back-up\'s gescheiden zijn</string>
+    <string name="separate_extras_desc">Sla extra\'s (contacten, SMS etc.) op als los zip-bestand en app\'s in gescheiden zip-bestanden. Alleen toepasbaar voor back-up\'s met meer dan één deel.</string>
+    <string name="delete_error_backup_title">Verwijder back-up\'s met fouten</string>
     <string name="delete_error_backup_desc">Verwijder back-up zip-bestand als er fouten waren opgetreden of currupt is geraakt.</string>
     <string name="zip_verification_title">Zip integriteitscontrole</string>
     <string name="zip_verification_desc">Controleer de back-up zip-bestanden op corruptie en of ze binnen de geheugen limieten van het apparaat passen.\nSTERK AANGERADEN</string>
@@ -718,7 +718,7 @@
     <!--ProgressShowActivity.kt-->
     <string name="force_stop">Geforceerd stoppen</string>
     <string name="force_stop_alert_title">App geforceerd stoppen?</string>
-    <string name="force_stop_alert_desc">Geforceerd stoppen zal proberen de gehele app te stoppen. Als je al eens op \"Annuleren\" hebt getikt, wacht dan A.U.B. even.\n\nBij geforceerd stoppen zul je manueel eventueel gemaakt back-up bestanden moeten verwijderen.</string>
+    <string name="force_stop_alert_desc">Geforceerd stoppen zal proberen de gehele app te stoppen. Als je al eens op \"Annuleren\" hebt getikt, wacht dan a.u.b. even.\n\nBij geforceerd stoppen zul je manueel eventueel gemaakt back-up bestanden moeten verwijderen.</string>
     <string name="kill_app">OK, stop het!</string>
     <string name="wait_to_cancel">Wachten…</string>
     <string name="killing_programmatically">Programmatisch stoppen</string>
@@ -747,7 +747,7 @@
         2. Privédata van app\'s (gecomprimeerd en opgeslagen)\n
         APK inhoud van app\'s wordt niet geanalyseerd. Privédata van app\'s wordt niet geanalyseerd.\n\n
 
-        Voor extra\'s back-ups wordt, na toestemming van de gebruiker, het volgende uitgelezen:\n
+        Voor extra\'s back-up\'s wordt, na toestemming van de gebruiker, het volgende uitgelezen:\n
         1. Contact data (opgeslagen als vcf-bestand)\n
         2. SMS data (opgeslagen als een db-bestand)\n
         3. Oproepgeschiedenis (opgeslagen als een db-bestand)\n
@@ -758,78 +758,82 @@
     </string>
     <string name="what_is_shared">Wat wordt gedeeld</string>
     <string name="what_is_shared_desc">
-        Sharing in this context refers to voluntary reporting of app logs.\n\n
-        On sharing logs, you agree to share (publicly, if on Telegram group):\n\n
-        - Some internal file structure of apps. This (in most cases) does not contain personally identifiable sensitive information.\n
-        - The backup name.\n
-        - Some backup details like number of backup parts.\n
-        - Device information like android version.\n\n
-        Migrate highly respects privacy of users. As such logs generated during back up of contacts, sms and call logs are NOT RECORDED and not sharable.
-        No intentional attempt is made to identify or make illicit use of personal data of users.\n\n
-        In any case, you agree that neither the developer, nor is the app responsible for any unintentional breach of privacy.
-        In case you feel that your logs may contain sensitive information, please don\'t share them.
-        In case you have already shared, please request for their deletion as soon as possible.
+        Met delen wordt in deze context het vrijwillig rapporteren van app logs bedoeld.\n\n
+        Met het delen van logs ga je akkoord met het (publiekelijk, mits in Telegram groep) delen van:\n\n
+        - Sommige interne bestandsstructuren van app\'s. Dit bevat (in de meeste gevallen) geen persoonlijk identificeerbare gevoelige informatie.\n
+        - De back-up naam.\n
+        - Sommige back-up details zoals het aantal back-up delen.\n
+        - Apparaatinformatie zoals Android versie.\n\n
+        Migrate respecteert de privacy van gebruikers zeer. Concreter betekent dit dat gegenereerde logs tijdens back-up van contacten, SMS\'en oproepgeschiedenis NIET OPGENOMEN worden en niet deelbaar zijn.
+        Geen bewuste poging wordt gedaan om persoonlijke informatie te identificeren of misbruiken.\n\n
+        In elk geval ga je er mee akkoord dat zowel de ontwikkelaar als de app niet verantwoordelijk kunnen worden gehouden voor het onbewust schenden van privacy.
+        Als je denkt dat jouw logs gevoelige informatie bevatten, deel ze dan a.u.b. niet.
+        In het geval dat privacy gevoelige logs reeds gedeeld zijn, vraag dan z.s.m. verwijdering aan.
     </string>
-    <string name="what_is_intentional">What is \"No intentional attempt\"?</string>
+    <string name="what_is_intentional">Wat betekent \"Geen bewuste poging\"?</string>
     <string name="what_is_intentional_desc">
-        As a developer, I want users to understand this point. Again, this is applicable only if you decide to share the logs.\n\n
-        Migrate uses the linux \"tar\" utility to compress data files. As such, tar prints out file names it has processed, and this also helps to identify if there are any errors in the process. Contents of the files are not printed.\n\n
-        Usually it is not possible to detect personally identifiable information from cryptic output of tar files.
-        But in some rare cases, developers may not follow proper practices and place information on the file name itself.
-        Example: a chat app storing chat preferences with a participant as a file with name as the phone number of the participant. In this case, tar will print the name of the file, thus exposing the phone number. This is just one example.\n\n
-        Migrate cannot take responsibility of putting a custom filter for each of the millions of apps out there, fearing that they don\'t by mistake leak any information.\n\n
-        Again this is a VERY rare case, and usually always goes unnoticed. This happened with previous versions of Migrate and I got suggestion from few users that this be known to everyone.\n
-        You can continue to use Migrate as you have done.
+        Als ontwikkelaar, wil ik dat gebruikers dit begrijpen. Nogmaals, dit is alleen toepasbaar als je beslist logs te delen.\n\n
+        Migrate het linux \"tar\" programma om data bestanden te comprimeren. Dit heet als gevolg dat tar bestandsnamen die het verwerkt heeft weergeeft, en dit helpt om fouten in het proces te indentificeren. Inhoudt van de bestanden wordt niet weergegeven.\n\n
+        Het is meestal niet mogelijk om persoonlijk identificeerbare informatie uit cryptische uitvoer van tar bestanden te detecteren.
+        Maar in sommige uitzonderlijke gevallen kan het voorkomen dat ontwikkelaars niet de goede praktijken volgen en informatie in de bestandsnaam zetten.
+        Voorbeeld: een chat-app die chat instellingen met een deelnemer opslaat in een bestand met als bestandsnaam het telefoonnummer van de deelnemer. In dit geval zal tar de bestandsnaam weergeven, en dus het telefoonnummer van die deelnemer. Dit is maar een enkel voorbeeld.\n\n
+        Migrate kan niet verantwoordelijk worden gehouden om een filter in te stellen voor de miljoenen app's die er bestaan uit angst voor het onopzettelijk lekken van informatie.\n\n
+        Nogmaals, dit en een ERG uitzonderlijke situate en gebeurd vaak onopgemerkt. Dit is gebeurd met vorige versies van Migrate en ik heb een suggestie van een paar gebruikers om dit kenbaar te maken naar iedereen.\n
+        Je kunt Migrate blijven gebruikers zoals je gewent bent.
     </string>
-    <string name="avoid_unintentional_leak">I am still not convinced.</string>
+    <string name="avoid_unintentional_leak">Ik ben nog steeds niet overtuigd.</string>
     <string name="avoid_unintentional_leak_desc">
-        As discussed previously, if you think your backup contains really sensitive data, please do not share logs. Nothing leaves your device if you do not voluntarily share logs.
-        <b>However, also note that without logs it becomes nearly impossible to provide any kind of support.\n\n</b>
+        Zoals eerder vermeld, als je denkt dat je back-up gevoelige informatie bevat, deel dan a.u.b. de logs niet. Niets verlaat jouw apparaat tenzij je dit zelf doet.
+        <b>Echter, zonder logs wordt het nagenoeg onmogelijk om enige vorm van ondersteuning te bieden.\n\n</b>
         Alternatively, you can choose to not share \"Progress log\". The \"Error log\" and other options are usually most important.
+        Als alternatief kun je ervoor kiezen om niet de \"Voortgangslog\" te delen. De \"Foutlog\" en andere opties meestal het belangrijkst.
     </string>
-    <string name="privacy_policy_footer">That\'s all. Enjoy using the app. Feel free to contact me on Telegram.\n- SayantanRC</string>
+    <string name="privacy_policy_footer">Dat was alles. Geniet van de app. Voel je vrij om contact met mij op te nemen via Telegram.\n- SayantanRC</string>
 
     <!--translation_layout.xml-->
-    <string name="want_to_translate">Want to translate?</string>
-    <string name="translation_available_at">The strings.xml file is available at:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
-    Follow the README instructions to submit a translation.
+    <string name="want_to_translate">Wil je vertalen?</string>
+    <string name="translation_available_at">Het strings.xml bestand is beschikbaar op:\n<a href="https://github.com/SayantanRC/translations">https://github.com/SayantanRC/translations</a>\n
+    Volg de README om een vertaling te versturen.
     </string>
-    <string name="translators">Translators</string>
+    <string name="translators">Vertalers</string>
     <string name="translators_list">
-        <b>@Fatih Fırıncı(@Trexfat)</b>: Turkish\n
-        <b>@rzlamrr</b>: Indonesia\n
-        <b>@vladrevers</b>: Russian\n
-        <b>@atfmxyl,@dwughjsd</b>: Simplified Chinese
+        <b>@Fatih Fırıncı(@Trexfat)</b>: Turks\n
+        <b>@rzlamrr</b>: Indonesisch\n
+        <b>@vladrevers</b>: Russisch\n
+        <b>@atfmxyl,@dwughjsd</b>: Vereenvoudigd Chinees\n
+        <b>@tomwiggersnl</b>: Nederlands (Nederland)
     </string>
 
     <!--contributors.xml-->
     <string name="contr_3.0">
-        <b>Patrick Perfectly III mtl</b>: Providing logs, writing exhaustive troubleshooting guides… Basically keeping the app alive till now.\n
-        <b>Isaac Baihua</b>: Detecting a case where zip isn\'t being made if only extras are selected.\n
-        <b>@anoop142 (Anoop)</b>: Made the first SAR modified version of the app. That helped a lot in v3.0\n
-        <b>@cruzer_blaze (Gokul)</b>: Helped in scripts\n
-        <b>@indianets (Vijay)</b>: Made the script to restore split apks efficiently\n
-        <b>BillGoss(XDA)</b>: If no awk present in recovery, hence use busybox awk.\n
-        <b>AndDiSa(XDA)</b>: Fix no-newline correction.\n\n
+        <b>Patrick Perfectly III mtl</b>: Aanbieden van logs, schrijven van uitgebreide handleidingen… Simpelweg het in leven houden van de app tot zo ver.\n
+        <b>Isaac Baihua</b>: Detecteren van een situatie waarin de zip niet wordt gemaakt als er alleen extra\'s zijn geselecteerd.\n
+        <b>@anoop142 (Anoop)</b>: Heeft de eerste SAR-gemodificeerde versie van de app gemaakt. Dit heeft veel geholpen in v3.0\n
+        <b>@cruzer_blaze (Gokul)</b>: Geholpen in scripts\n
+        <b>@indianets (Vijay)</b>: Heeft het script om gesplitste APK\'s efficient te herstellen\n
+        <b>BillGoss(XDA)</b>: Indien geen awk present in recovery, gebruik busybox awk.\n
+        <b>AndDiSa(XDA)</b>: Fixen van geen-newline correctie.\n\n
     Obviously I adequately thank all the thousands of users who use this app and help to make the app better. You mean a lot to me.\n
+    Natuurlijk wil ik alle duizenden gebruikers van deze app die de app helpen verbeteren adequaat bedanken. Jullie betekenen veel voor mij.\n
     Also a huge thank you to translators of the app. Thanks.
+    Ook enorm bedankt aan de vertalers van de app. Dankjewel.
     </string>
-    <string name="prev_contri">Previous contributors</string>
-    <string name="thanks_to_stericson">Huge thanks to Stephen (stericdroid) for allowing me to liberally use his busybox builds</string>
-    <string name="thanks_to_magisk">Without topjohnwu\'s Magisk, this app would not be possible. I learned a lot from Magisk installer scripts.</string>
-    <string name="thanks_1">Tireless help for Xiaomi Mi A1:\n@ishubhamsingh\n@su_bin</string>
-    <string name="thanks_2">Huge bug hunters:\n
-        My classmate <b>Shivam</b> has tested the app more than me!\n
+    <string name="prev_contri">Voorgaande bijdragers</string>
+    <string name="thanks_to_stericson">Enorme dank aan Stephen (stericdroid) voor het toestaan van royaal gebruik van zijn busybox versies</string>
+    <string name="thanks_to_magisk">Zonder topjohnwu\'s Magisk was deze app niet mogelijk. Ik heb veel geleerd van Magisk installer scripts.</string>
+    <string name="thanks_1">Onuitputtelijke hulp voor Xiaomi Mi A1:\n@ishubhamsingh\n@su_bin</string>
+    <string name="thanks_2">Enorme foutjagers:\n
+        Mijn klasgenoot <b>Shivam</b> heeft de app meer getest dan ik!\n
         @akshayrohida\n
         @raj3303\n
         \n
-        XDA member <b>djseltus</b>, for pointing to a new update-binary\n
-        <b>Vinyas N S</b>, for \"android.os.TransactionTooLargeException\" issue\n
-        <b>C Tab</b>, helped to find an issue with the helper app\n
-        XDA member <b>SevenSlevin</b> for detecting updater_script issue\n
-        XDA member <b>kdrag0n</b> for a number of helpful suggestions\n
+        XDA-lid <b>djseltus</b>, voor het wijzen op een neiuwe update-binary\n
+        <b>Vinyas N S</b>, voor het \"android.os.TransactionTooLargeException\" probleem\n
+        <b>C Tab</b>, heeft geholpen een probleem in de helper app te vinden\n
+        XDA-lid <b>SevenSlevin</b> voor het detecteren van een updater_script fout\n
+        XDA-lid <b>kdrag0n</b> voor een aantal hulpvolle suggesties\n
     </string>
-    <string name="thanks_3">The app wouldn\'t be possible without the whole group of tester:\n\n
+    <string name="thanks_3">Deze app zou onmogelijk zijn zonder deze hele groep testers:\n\n
         @TusharG03\n
         @arghyac35\n
         @pavanjadhaw\n
@@ -844,27 +848,27 @@
     </string>
 
     <!--ZipItemAdapter.java-->
-    <string name="empty">Empty</string>
+    <string name="empty">Leeg</string>
 
-    <string name="file_list_not_in_zip_batch">File list not present in zipBatch</string>
-    <string name="zip_batch_null_updater">Zip Batch is null before updater script</string>
-    <string name="zip_batch_null_zipping_engine">Zip Batch is null before starting zipping</string>
-    <string name="zip_batch_null_zip_verification">Zip Batch is null before zip verification</string>
-    <string name="improper_result_received">Improper result received.</string>
+    <string name="file_list_not_in_zip_batch">Bestandslijst niet aanwezig in zipBatch</string>
+    <string name="zip_batch_null_updater">Zip Batch is null voor het updater script</string>
+    <string name="zip_batch_null_zipping_engine">Zip Batch is null voor het starten met zippen</string>
+    <string name="zip_batch_null_zip_verification">Zip Batch is null voor zip verificatie</string>
+    <string name="improper_result_received">Ongepast resultaat ontvangen.</string>
 
     <!--some branch specific strings-->
     <!--Needs to be translated-->
-    <string name="label_for_gpe">Google Play Edition</string>
-    <string name="label_for_ng">Non-Google/Beta Edition</string>
-    <string name="check_for_updates_ng">Check for updates</string>
-    <string name="switch_to_ng_in_gpe">Switch to Migrate-NG</string>
-    <string name="ng_desc">Migrate-NG is an beta version of the app. The version on Google Play is stable. The beta version is available as a separate app to download on the XDA thread.</string>
+    <string name="label_for_gpe">Google Play Editie</string>
+    <string name="label_for_ng">Non-Google/Beta Editie</string>
+    <string name="check_for_updates_ng">Controleer op updates</string>
+    <string name="switch_to_ng_in_gpe">Stap over naar Migrate-NG</string>
+    <string name="ng_desc">Migrate-NG is een beta versie van de app. De versie op Google Play is stabiel. De beta versie is beschikbaar als een gescheiden app download op de XDA thread.</string>
     <string name="updates_ng">Updates</string>
-    <string name="auto_check_updates_ng">Auto check for updates</string>
-    <string name="auto_check_updates_desc_ng">Check for updates at startup</string>
-    <string name="update_host_ng">Select host for updates</string>
-    <string name="update_host_desc_ng">Updates are stored as releases in GitHub/GitLab</string>
-    <string name="select_update_channel_ng">Select update channel</string>
-    <string name="select_update_channel_desc_ng">Stable channel or beta+stable</string>
+    <string name="auto_check_updates_ng">Automatisch controleren op updates</string>
+    <string name="auto_check_updates_desc_ng">Controleer op updates bij starten</string>
+    <string name="update_host_ng">Selecteer host voor updates</string>
+    <string name="update_host_desc_ng">Updates zijn opgeslagem als releases op GitHub/GitLab</string>
+    <string name="select_update_channel_ng">Selecteer update-kanaal</string>
+    <string name="select_update_channel_desc_ng">Stabiel kanaal of beta+stabiel</string>
 
 </resources>
