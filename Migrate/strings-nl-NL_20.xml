@@ -395,8 +395,8 @@
     <!--MainActivity.java-->
     <string name="too_fast">Wauw, te snel!!</string>
     <string name="too_fast_desc">De app is niet expliciet getest op Android versies boven Pie (9.0).\n\nStuur a.u.b. je feedback of de app werkt (in het Engels).</string>
-    <string name="dont_show_again">Niet opnieuw laten zien</string>
-    <string name="dont_show_stock_warning">Niet opnieuw laten zien</string>
+    <string name="dont_show_again">Niet opnieuw weergeven</string>
+    <string name="dont_show_stock_warning">Niet opnieuw weergeven</string>
     <string name="stock_android_rom">AOSP aangeraden</string>
     <string name="please_wait">Even wachten a.u.b.</string>
     <string name="reading_data">Back-up data inlezen</string>
@@ -654,7 +654,7 @@
     <string name="contact_via_telegram_desc">Voor feedback en ondersteuning, neem a.u.b. contact op met onze Telegram groep. Je zal betere en snelle ondersteuning krijgen van groepsleden.\n\nJe kan er ook voor kiezen persoonlijk contact op te nemen met de ontwikkelaar via Telegram.</string>
     <string name="contact_dev">Neem contact op met de ontwikkelaar</string>
     <string name="post_in_group">Bericht in groep</string>
-    <string name="select_mail">Select een mail-app zoals Gmail</string>
+    <string name="select_mail">Selecteer een mail-app zoals Gmail.</string>
     <string name="select_telegram">Open Telegram en selecteer de Migrate groep</string>
     <!--<string name="sem_apology">Semester verontschuldiging!</string>
     <string name="sem_apology_desc">Vanwege opkomende semesters kan ik mij voor ongeveer de komende maand niet focussen op ontwikkeling van deze app. Mijn excuses.\n\n
