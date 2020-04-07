@@ -686,77 +686,77 @@
     <string name="sms_verify_desc">Controleer integriteit van SMS database bestand opgeslagen in de  back-up</string>
     <string name="calls_verify_title">Oproepgeschiedenis verificatie</string>
     <string name="calls_verify_desc">Controleer integriteit van oproepgeschiedenis database bestand opgeslagen in back-up</string>
-    <string name="perform_system_check_title">Perform system check</string>
-    <string name="perform_system_check_desc">This will perform a basic apk copy and data copy (of this app itself) via Su shell before each backup. Thus checking if backup of other apps will be successful or not.</string>
-    <string name="separate_extras_title">Separate extras backup</string>
-    <string name="force_separate_extras">Force separate extras</string>
-    <string name="force_separate_extras_desc">Extras will be backed up separately even for small backups</string>
-    <string name="separate_extras_desc">Store extras (contacts, sms etc) as a standalone zip file and apps in separate zip files. Applicable only for backups having more than 1 part.</string>
-    <string name="delete_error_backup_title">Delete backup with errors</string>
-    <string name="delete_error_backup_desc">Delete backup zip file if it finished with errors or was corrupted while backup.</string>
-    <string name="zip_verification_title">Zip integrity check</string>
-    <string name="zip_verification_desc">Verify if backup zips are corrupted and within the flashable memory constraints of the device.\nHIGHLY RECOMMENDED</string>
-    <string name="advanced">Advanced</string>
-    <string name="max_zip_size">Max zip size</string>
-    <string name="max_zip_size_desc">This is the maximum allowable size of a backup zip which can be safely flashed via TWRP.
-        This does not mean that zips will actually be of this size, but this value determines the number of parts to be created of the entire backup. Zips may be much smaller than this size to maintain uniformity.</string>
-    <string name="use_su_for_keyboard_title">Use Su shell to read keyboard</string>
-    <string name="use_su_for_keyboard_desc">Root shell will be used to read active keyboards in Extra backups</string>
-    <string name="ignore_cache_desc">Ignores the cache directory of apps while backup, thus backups get very small. Although usually safe, you might lose some data of the app.</string>
-    <string name="manual_cache">Specify path to migrate_cache</string>
-    <string name="manual_system">Specify path to system directory</string>
-    <string name="manual_buildprop">Specify path to ROM build.prop</string>
-    <string name="detect_while_flashing_hint">(Detect while flashing)</string>
+    <string name="perform_system_check_title">Voer systeemcontrole uit</string>
+    <string name="perform_system_check_desc">Dit zal een simpele APK en data kopie (van de app zelf) uitvoeren via SU shell vooraf aan elke back-up om te controleren of het back-up systeem werkt.</string>
+    <string name="separate_extras_title">Gescheiden extra\'s back-up</string>
+    <string name="force_separate_extras">Forceer gescheiden extra\'s</string>
+    <string name="force_separate_extras_desc">Extra\'s zullen zelfs voor kleine back-ups gescheiden zijn</string>
+    <string name="separate_extras_desc">Sla extra\'s (contacten, SMS etc.) op als los zip-bestand en app\'s in gescheiden zip-bestanden. Alleen toepasbaar voor back-ups met meer dan één deel.</string>
+    <string name="delete_error_backup_title">Verwijder back-ups met fouten</string>
+    <string name="delete_error_backup_desc">Verwijder back-up zip-bestand als er fouten waren opgetreden of currupt is geraakt.</string>
+    <string name="zip_verification_title">Zip integriteitscontrole</string>
+    <string name="zip_verification_desc">Controleer de back-up zip-bestanden op corruptie en of ze binnen de geheugen limieten van het apparaat passen.\nSTERK AANGERADEN</string>
+    <string name="advanced">Geavanceerd</string>
+    <string name="max_zip_size">Max. zip grootte</string>
+    <string name="max_zip_size_desc">Dit is maximaal toelaatbare grootte van een back-up zip-bestand die veilig in TWRP geflasht kan worden.
+        Dit betekent niet dat zip-bestanden altijd deze grootte zullen hebben, maar bepaald wanneer een zip-bestand zal worden opgedeeld. Zip\'s kunnen, om uniformiteit te behouden, veel kleiner zijn.</string>
+    <string name="use_su_for_keyboard_title">Gebruik SU shell om toetsenbord uit te lezen</string>
+    <string name="use_su_for_keyboard_desc">Root shell zal worden gebruikt om actieve toetsenborden in Extra\'s back-up\'s uit te lezen</string>
+    <string name="ignore_cache_desc">Negeert de cache map van app\'s tijdens back-up\'s, en resulteerd in kleinere back-up\'s. Hoewel normaalgesproken veilig, kan het zijn dat je wat data verliest.</string>
+    <string name="manual_cache">Specifieer pad naar migrate_cache</string>
+    <string name="manual_system">Specifeer pad naar systeem map</string>
+    <string name="manual_buildprop">Specifeer pad naar ROM build.prop</string>
+    <string name="detect_while_flashing_hint">(Detecteer tijdens flashen)</string>
 
-    <string name="use_file_list_in_zip_verification">Use fileList.txt in zip verification</string>
-    <string name="use_file_list_in_zip_verification_desc">Migrate maintains a list of files it has backed up in a file \"fileList.txt\" inside the backup zip. This option will make zip verification engine compare the files present in the zip and entries in this file.</string>
+    <string name="use_file_list_in_zip_verification">Gebruik fileList.txt in zip-verificatie</string>
+    <string name="use_file_list_in_zip_verification_desc">Migrate onderhoudt een lijst met bestanden die heeft geback-upt in \"fileList.txt\" in de back-up zip. Deze optie zorgt er voor dat de zip-verificatie engine de bestanden in de back-up zip vergelijkt met deze lijst.</string>
 
     <!--app_search_layout.xml-->
-    <string name="showing_apps_from">Showing apps from category:</string>
-    <string name="enter_app_name">App/package name</string>
+    <string name="showing_apps_from">Laat app\'s zien uit categorie:</string>
+    <string name="enter_app_name">App/pakket naam</string>
 
     <!--ProgressShowActivity.kt-->
-    <string name="force_stop">Force stop</string>
-    <string name="force_stop_alert_title">Force stop app?</string>
-    <string name="force_stop_alert_desc">Force stopping will attempt to kill the whole app. If you have already pressed Cancel once, please wait for some time.\n\nOn force stopping, you will have to manually delete any backup files made.</string>
-    <string name="kill_app">OK, kill it!</string>
-    <string name="wait_to_cancel">Wait…</string>
-    <string name="killing_programmatically">Killing programmatically</string>
+    <string name="force_stop">Geforceerd stoppen</string>
+    <string name="force_stop_alert_title">App geforceerd stoppen?</string>
+    <string name="force_stop_alert_desc">Geforceerd stoppen zal proberen de gehele app te stoppen. Als je al eens op \"Annuleren\" hebt getikt, wacht dan A.U.B. even.\n\nBij geforceerd stoppen zul je manueel eventueel gemaakt back-up bestanden moeten verwijderen.</string>
+    <string name="kill_app">OK, stop het!</string>
+    <string name="wait_to_cancel">Wachten…</string>
+    <string name="killing_programmatically">Programmatisch stoppen</string>
 
     <!--MainBackupEngine.kt-->
-    <string name="test_apk_not_found">Test apk not found or not properly created</string>
-    <string name="test_data_not_found">Test data (tar.gz) not found or not properly created</string>
+    <string name="test_apk_not_found">Test APK niet gevonden of niet correct gecreëerd</string>
+    <string name="test_data_not_found">Test data (tar.gz) niet gevonden of niet correct gecreëerd</string>
 
     <!--privacy_policy.xml-->
-    <string name="privacy_policy_header">Privacy policy</string>
-    <string name="privacy_policy_desc">This is a formal-informal discussion regarding data privacy and Migrate, some things which users should be aware of.
-    These are subject to change on future updates, as more features are added.</string>
+    <string name="privacy_policy_header">Privacy beleid</string>
+    <string name="privacy_policy_desc">Dit is een formeel-informele discussie over data privacy en Migrate. Wat dingen waar gebruikers zich bewust van moeten zijn.
+    Deze kunnen in toekomstige updates worden gewijzigd aangezien er nieuwe mogelijkheden worden toegevoegd.</string>
     <string name="google_firebase">Google Firebase</string>
-    <string name="google_firebase_desc">From v3.0 onwards on Google Play edition only, Migrate uses Firebase for crash analytics. No personal data of users is transmitted. Builds of Migrate-NG (available on XDA) do not have crash analytics anymore.</string>
+    <string name="google_firebase_desc">Vanaf v3.0, alleen voor Google Play editie, gebruikt Migrate Firebase voor crash analyse. Geen persoonlijke gebruikersdata is verzonden. Versies van Migrate-NG (beschikbaar op XDA) bevatten geen crash analyse meer.</string>
     <string name="google_admob">Google Admob</string>
-    <string name="google_admob_desc">Migrate has been using Google\'s Admob service to display Ads. That remains unchanged.</string>
-    <string name="data_that_is_read">Data that is read by Migrate</string>
-    <string name="data_that_is_read_desc">For app backup, the following data are read:\n
-        1. List of installed packages\n
-        2. Path to source apks\n
-        3. Path to data directory\n
-        4. Permissions used\n
-        5. Installer package of apps\n
-        Following are accessed using ROOT permission:\n
-        1. Apks of apps (only stored)\n
-        2. Private data of apps (compressed and stored)\n
-        Apk content of apps are not analysed. Private data of apps are not analysed.\n\n
+    <string name="google_admob_desc">Migrate gebruikt Google\'s Admob service om Advertenties weer te geven. Dit blijft ongewijzigd.</string>
+    <string name="data_that_is_read">Data die wordt gelezen door Migrate</string>
+    <string name="data_that_is_read_desc">Voor app-back-up wordt de volgende data gelezen:\n
+        1. Lijst van geïnstalleerde paketten\n
+        2. Pad naar bron APK\'s\n
+        3. Pad naar data map\n
+        4. Gebruikte permissies\n
+        5. Installatiepakketten van app\'s\n
+        Het volgende wordt geopend met ROOT toegang:\n
+        1. APK\'s van app\'s (only opgeslagen)\n
+        2. Privédata van app\'s (gecomprimeerd en opgeslagen)\n
+        APK inhoud van app\'s wordt niet geanalyseerd. Privédata van app\'s wordt niet geanalyseerd.\n\n
 
-        For extra backups, the following are read, only after permission from user:\n
-        1. Contacts data (stored as vcf file)\n
-        2. SMS data (stored as a db file)\n
-        3. Call logs (stored as a db file)\n
-        4. Screen DPI, default keyboard, ADB state, Font scale\n
-        5. Wifi store config file (Android 8.0+)\n\n
+        Voor extra\'s back-ups wordt, na toestemming van de gebruiker, het volgende uitgelezen:\n
+        1. Contact data (opgeslagen als vcf-bestand)\n
+        2. SMS data (opgeslagen als een db-bestand)\n
+        3. Oproepgeschiedenis (opgeslagen als een db-bestand)\n
+        4. Scherm DPI, standaard toetsenbord, ADB status, Lettertype schaal\n
+        5. Wi-Fi configuratiebestand (Android 8.0+)\n\n
 
-        All data read are stored locally on the device
+        Alle data wordt lokaal op het apparaat opgeslagen.
     </string>
-    <string name="what_is_shared">What is shared</string>
+    <string name="what_is_shared">Wat wordt gedeeld</string>
     <string name="what_is_shared_desc">
         Sharing in this context refers to voluntary reporting of app logs.\n\n
         On sharing logs, you agree to share (publicly, if on Telegram group):\n\n
